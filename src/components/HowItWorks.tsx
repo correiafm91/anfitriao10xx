@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Search, Target, Settings, TrendingUp } from "lucide-react";
+import { Search, Target, BarChart3, Rocket } from "lucide-react";
 
 const steps = [
-  { icon: Search, title: "Análise", description: "Avaliamos seu imóvel e identificamos o potencial máximo de receita." },
-  { icon: Target, title: "Estratégia", description: "Criamos um plano personalizado de marketing e precificação dinâmica." },
-  { icon: Settings, title: "Gestão", description: "Cuidamos de tudo: fotos, anúncios, hóspedes e manutenção." },
-  { icon: TrendingUp, title: "Resultados", description: "Você acompanha seus ganhos crescerem mês após mês." },
+  { icon: Search, title: "Diagnóstico", description: "Analise o posicionamento atual do seu imóvel e identifique oportunidades ocultas de receita." },
+  { icon: Target, title: "Estratégia", description: "Aplique técnicas de precificação dinâmica, copywriting e posicionamento de mercado." },
+  { icon: BarChart3, title: "Marketing", description: "Crie anúncios irresistíveis com fotos, descrições e gatilhos que atraem hóspedes premium." },
+  { icon: Rocket, title: "Escala", description: "Otimize continuamente seus resultados e escale seus ganhos mês após mês." },
 ];
 
 const HowItWorks = () => (
@@ -18,10 +18,10 @@ const HowItWorks = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          Como <span className="text-primary font-normal">Funciona</span>
+          O <span className="text-primary font-normal">Método</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Um processo simples e transparente para maximizar o retorno do seu imóvel.
+          4 pilares estratégicos para você aplicar no seu imóvel e multiplicar seus resultados.
         </p>
       </motion.div>
 
@@ -39,7 +39,7 @@ const HowItWorks = () => (
               <step.icon className="w-7 h-7 text-primary" strokeWidth={1.5} />
             </div>
             <div className="text-xs text-primary font-medium tracking-widest uppercase mb-2">
-              Etapa {i + 1}
+              Pilar {i + 1}
             </div>
             <h3 className="text-xl font-light mb-2">{step.title}</h3>
             <p className="text-sm text-muted-foreground font-light">{step.description}</p>

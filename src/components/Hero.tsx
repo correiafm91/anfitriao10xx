@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 const stats = [
-  { value: "+300", label: "Imóveis Gerenciados" },
+  { value: "+500", label: "Anfitriões Treinados" },
   { value: "10x", label: "Retorno Médio" },
-  { value: "98%", label: "Satisfação dos Clientes" },
-  { value: "R$50M+", label: "Em Receita Gerada" },
+  { value: "98%", label: "Satisfação dos Alunos" },
+  { value: "27", label: "Estados Atendidos" },
 ];
 
 const Hero = () => {
@@ -25,21 +25,21 @@ const Hero = () => {
           className="text-center max-w-4xl mx-auto"
         >
           <span className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-6 block">
-            Anfitrião 10x
+            Método Anfitrião 10x — por Gustavo Correia
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extralight leading-tight mb-6">
-            Multiplique seus ganhos com seu imóvel por{" "}
+            A estratégia que multiplica seus ganhos com imóveis por{" "}
             <span className="text-primary font-normal">10x</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl font-light max-w-2xl mx-auto mb-10">
-            Transformamos seu imóvel em uma máquina de receita com estratégias profissionais de marketing imobiliário e gestão inteligente.
+            Aprenda as estratégias de marketing imobiliário que transformam anfitriões comuns em anfitriões de alta performance — sem terceirizar a gestão do seu imóvel.
           </p>
           <Button
             onClick={scrollToForm}
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-6 text-base font-normal tracking-wide group"
           >
-            Quero aumentar meus ganhos
+            Quero aprender o método
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>

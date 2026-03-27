@@ -6,37 +6,37 @@ const testimonials = [
     name: "Carlos Mendes",
     property: "Apartamento em Copacabana",
     stars: 5,
-    text: "Em 3 meses minha receita triplicou. A equipe é extremamente profissional e proativa.",
+    text: "Apliquei as estratégias do Gustavo e em 3 meses minha receita triplicou. O método é direto ao ponto.",
   },
   {
     name: "Fernanda Oliveira",
     property: "Casa de praia em Búzios",
     stars: 5,
-    text: "Não preciso me preocupar com nada. Eles cuidam de tudo e meus ganhos nunca foram tão altos.",
+    text: "Finalmente entendi como posicionar meu imóvel no mercado. Meus ganhos nunca foram tão altos.",
   },
   {
     name: "Ricardo Santos",
     property: "Flat em São Paulo",
     stars: 5,
-    text: "A precificação dinâmica fez toda a diferença. Minha taxa de ocupação foi de 45% para 96%.",
+    text: "A estratégia de precificação dinâmica mudou tudo. Minha taxa de ocupação foi de 45% para 96%.",
   },
   {
     name: "Ana Paula Costa",
     property: "Chalé em Campos do Jordão",
     stars: 5,
-    text: "Profissionalismo impecável. As fotos e anúncios que criaram atraem hóspedes premium.",
+    text: "Aprendi a criar anúncios que atraem hóspedes premium. O retorno veio no primeiro mês.",
   },
   {
     name: "Marcos Ferreira",
     property: "Estúdio no Centro do Rio",
     stars: 5,
-    text: "Meu retorno aumentou 8x em 6 meses. Melhor investimento que fiz para meu imóvel.",
+    text: "Meu retorno aumentou 8x em 6 meses só aplicando o que o Gustavo ensina. Método comprovado.",
   },
   {
     name: "Juliana Almeida",
     property: "Cobertura em Florianópolis",
     stars: 5,
-    text: "Transparência total nos relatórios e um atendimento que supera qualquer expectativa.",
+    text: "O conteúdo é claro, prático e funciona. Hoje eu mesma gerencio meu imóvel com resultados incríveis.",
   },
 ];
 
@@ -50,10 +50,10 @@ const Testimonials = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          O que dizem nossos <span className="text-primary font-normal">Clientes</span>
+          O que dizem nossos <span className="text-primary font-normal">Alunos</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Proprietários reais compartilham suas experiências com o Anfitrião 10x.
+          Anfitriões que aplicaram o método e transformaram seus resultados.
         </p>
       </motion.div>
 

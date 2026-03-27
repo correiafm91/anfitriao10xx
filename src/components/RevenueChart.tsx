@@ -3,24 +3,24 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { TrendingUp, Home, DollarSign } from "lucide-react";
 
 const data = [
-  { mes: "Jan", semAnfitriao: 2800, comAnfitriao: 3200 },
-  { mes: "Fev", semAnfitriao: 3000, comAnfitriao: 4100 },
-  { mes: "Mar", semAnfitriao: 2600, comAnfitriao: 5500 },
-  { mes: "Abr", semAnfitriao: 3200, comAnfitriao: 7200 },
-  { mes: "Mai", semAnfitriao: 2900, comAnfitriao: 8900 },
-  { mes: "Jun", semAnfitriao: 3100, comAnfitriao: 11000 },
-  { mes: "Jul", semAnfitriao: 3300, comAnfitriao: 14500 },
-  { mes: "Ago", semAnfitriao: 3000, comAnfitriao: 18000 },
-  { mes: "Set", semAnfitriao: 2700, comAnfitriao: 21000 },
-  { mes: "Out", semAnfitriao: 3100, comAnfitriao: 24000 },
-  { mes: "Nov", semAnfitriao: 2900, comAnfitriao: 27000 },
-  { mes: "Dez", semAnfitriao: 3200, comAnfitriao: 30000 },
+  { mes: "Jan", semMetodo: 2800, comMetodo: 3200 },
+  { mes: "Fev", semMetodo: 3000, comMetodo: 4100 },
+  { mes: "Mar", semMetodo: 2600, comMetodo: 5500 },
+  { mes: "Abr", semMetodo: 3200, comMetodo: 7200 },
+  { mes: "Mai", semMetodo: 2900, comMetodo: 8900 },
+  { mes: "Jun", semMetodo: 3100, comMetodo: 11000 },
+  { mes: "Jul", semMetodo: 3300, comMetodo: 14500 },
+  { mes: "Ago", semMetodo: 3000, comMetodo: 18000 },
+  { mes: "Set", semMetodo: 2700, comMetodo: 21000 },
+  { mes: "Out", semMetodo: 3100, comMetodo: 24000 },
+  { mes: "Nov", semMetodo: 2900, comMetodo: 27000 },
+  { mes: "Dez", semMetodo: 3200, comMetodo: 30000 },
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Taxa de Ocupação", value: "94%", change: "+38%" },
-  { icon: DollarSign, label: "Receita Média/Mês", value: "R$18.500", change: "+520%" },
-  { icon: Home, label: "Valor Diária Média", value: "R$680", change: "+210%" },
+  { icon: TrendingUp, label: "Taxa de Ocupação Média", value: "94%", change: "+38% com o método" },
+  { icon: DollarSign, label: "Receita Média/Mês", value: "R$18.500", change: "+520% de aumento" },
+  { icon: Home, label: "Valor Diária Média", value: "R$680", change: "+210% de valorização" },
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
@@ -28,8 +28,8 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   return (
     <div className="bg-card border border-border rounded-lg p-3 text-sm shadow-xl">
       <p className="text-foreground font-medium mb-1">{label}</p>
-      <p className="text-muted-foreground">Sem gestão: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
-      <p className="text-primary">Com Anfitrião 10x: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
+      <p className="text-muted-foreground">Sem o método: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
+      <p className="text-primary">Com Método 10x: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
     </div>
   );
 };
@@ -47,7 +47,7 @@ const RevenueChart = () => (
           Crescimento de <span className="text-primary font-normal">Receita</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Veja a diferença real nos ganhos de proprietários que aderiram ao Anfitrião 10x.
+          Resultados reais de anfitriões que aplicaram as estratégias do Método Anfitrião 10x.
         </p>
       </motion.div>
 
@@ -60,11 +60,11 @@ const RevenueChart = () => (
         <div className="flex flex-wrap gap-6 mb-8 text-sm">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-muted-foreground/40" />
-            <span className="text-muted-foreground">Sem gestão profissional</span>
+            <span className="text-muted-foreground">Sem estratégia profissional</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-foreground">Com Anfitrião 10x</span>
+            <span className="text-foreground">Com Método Anfitrião 10x</span>
           </div>
         </div>
         <div className="h-[350px] w-full">
@@ -80,8 +80,8 @@ const RevenueChart = () => (
               <XAxis dataKey="mes" stroke="hsl(0, 0%, 40%)" fontSize={12} tickLine={false} />
               <YAxis stroke="hsl(0, 0%, 40%)" fontSize={12} tickLine={false} tickFormatter={(v) => `R$${(v / 1000).toFixed(0)}k`} />
               <Tooltip content={<CustomTooltip />} />
-              <Area type="monotone" dataKey="semAnfitriao" stroke="hsl(0, 0%, 40%)" strokeWidth={2} fill="transparent" dot={false} />
-              <Area type="monotone" dataKey="comAnfitriao" stroke="hsl(1, 77%, 55%)" strokeWidth={2} fill="url(#colorAnfitriao)" dot={false} />
+              <Area type="monotone" dataKey="semMetodo" stroke="hsl(0, 0%, 40%)" strokeWidth={2} fill="transparent" dot={false} />
+              <Area type="monotone" dataKey="comMetodo" stroke="hsl(1, 77%, 55%)" strokeWidth={2} fill="url(#colorAnfitriao)" dot={false} />
             </AreaChart>
           </ResponsiveContainer>
         </div>

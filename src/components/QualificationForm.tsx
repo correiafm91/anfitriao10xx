@@ -30,10 +30,11 @@ const QualificationForm = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            Solicite sua <span className="text-primary font-normal">Análise Gratuita</span>
+            Descubra o potencial do seu{" "}
+            <span className="text-primary font-normal">Imóvel</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Preencha o formulário e descubra quanto seu imóvel pode gerar com a nossa gestão.
+            Preencha o formulário e receba uma análise estratégica gratuita do seu imóvel.
           </p>
         </motion.div>
 
@@ -91,7 +92,7 @@ const QualificationForm = () => {
             />
           </div>
           <Textarea
-            placeholder="Conte-nos mais sobre seu imóvel e seus objetivos..."
+            placeholder="Conte-nos mais sobre seu imóvel e seus objetivos como anfitrião..."
             rows={4}
             className="bg-secondary border-border focus:border-primary font-light resize-none"
           />
@@ -100,7 +101,7 @@ const QualificationForm = () => {
             disabled={loading}
             className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 rounded-xl text-base font-normal tracking-wide"
           >
-            {loading ? "Enviando..." : "Solicitar Análise Gratuita"}
+            {loading ? "Enviando..." : "Receber Análise Estratégica Gratuita"}
             {!loading && <Send className="ml-2 w-4 h-4" />}
           </Button>
         </motion.form>
