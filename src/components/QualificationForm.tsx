@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { toast } from "sonner";
-import { Send } from "lucide-react";
+import { Send, AlertTriangle } from "lucide-react";
 
 const QualificationForm = () => {
   const [loading, setLoading] = useState(false);
@@ -15,7 +14,7 @@ const QualificationForm = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      toast.success("Solicitação enviada com sucesso! Entraremos em contato em até 24h.");
+      toast.success("Inscrição realizada com sucesso! Você receberá os detalhes no seu e-mail.");
       (e.target as HTMLFormElement).reset();
     }, 1500);
   };
@@ -29,12 +28,15 @@ const QualificationForm = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-sm">
+            <AlertTriangle className="w-4 h-4 text-foreground" />
+            <span className="text-foreground font-medium">Últimas vagas — Inscrições encerram em breve</span>
+          </div>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            Descubra o potencial do seu{" "}
-            <span className="text-primary font-normal">Imóvel</span>
+            Garanta sua <span className="text-foreground font-normal">Vaga</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Preencha o formulário e receba uma análise estratégica gratuita do seu imóvel.
+            Preencha o formulário para garantir sua vaga na masterclass dos dias 15, 16 e 17 de Abril.
           </p>
         </motion.div>
 
@@ -49,13 +51,13 @@ const QualificationForm = () => {
             <Input
               placeholder="Seu nome completo"
               required
-              className="bg-secondary border-border focus:border-primary h-12 font-light"
+              className="bg-secondary border-border focus:border-foreground h-12 font-light"
             />
             <Input
               type="email"
               placeholder="Seu melhor e-mail"
               required
-              className="bg-secondary border-border focus:border-primary h-12 font-light"
+              className="bg-secondary border-border focus:border-foreground h-12 font-light"
             />
           </div>
           <div className="grid md:grid-cols-2 gap-5">
@@ -63,47 +65,37 @@ const QualificationForm = () => {
               type="tel"
               placeholder="Telefone com DDD"
               required
-              className="bg-secondary border-border focus:border-primary h-12 font-light"
+              className="bg-secondary border-border focus:border-foreground h-12 font-light"
             />
             <Select required>
               <SelectTrigger className="bg-secondary border-border h-12 font-light">
-                <SelectValue placeholder="Tipo de imóvel" />
+                <SelectValue placeholder="Experiência como corretor" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="apartamento">Apartamento</SelectItem>
-                <SelectItem value="casa">Casa</SelectItem>
-                <SelectItem value="flat">Flat / Studio</SelectItem>
-                <SelectItem value="chale">Chalé / Cabana</SelectItem>
-                <SelectItem value="cobertura">Cobertura</SelectItem>
-                <SelectItem value="sitio">Sítio / Fazenda</SelectItem>
-                <SelectItem value="outro">Outro</SelectItem>
+                <SelectItem value="iniciante">Iniciante (menos de 1 ano)</SelectItem>
+                <SelectItem value="intermediario">Intermediário (1-3 anos)</SelectItem>
+                <SelectItem value="experiente">Experiente (3-5 anos)</SelectItem>
+                <SelectItem value="veterano">Veterano (5+ anos)</SelectItem>
+                <SelectItem value="ainda-nao">Ainda não sou corretor</SelectItem>
               </SelectContent>
             </Select>
           </div>
-          <div className="grid md:grid-cols-2 gap-5">
-            <Input
-              placeholder="Localização (Cidade/Estado)"
-              required
-              className="bg-secondary border-border focus:border-primary h-12 font-light"
-            />
-            <Input
-              placeholder="Valor estimado do imóvel"
-              className="bg-secondary border-border focus:border-primary h-12 font-light"
-            />
-          </div>
-          <Textarea
-            placeholder="Conte-nos mais sobre seu imóvel e seus objetivos como anfitrião..."
-            rows={4}
-            className="bg-secondary border-border focus:border-primary font-light resize-none"
+          <Input
+            placeholder="Cidade / Estado"
+            required
+            className="bg-secondary border-border focus:border-foreground h-12 font-light"
           />
           <Button
             type="submit"
             disabled={loading}
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 rounded-xl text-base font-normal tracking-wide"
+            className="w-full bg-foreground hover:bg-foreground/90 text-background h-12 rounded-xl text-base font-normal tracking-wide"
           >
-            {loading ? "Enviando..." : "Receber Análise Estratégica Gratuita"}
+            {loading ? "Enviando..." : "Garantir minha vaga agora"}
             {!loading && <Send className="ml-2 w-4 h-4" />}
           </Button>
+          <p className="text-xs text-muted-foreground text-center">
+            Vagas limitadas. Ao se inscrever, você receberá os detalhes de acesso por e-mail.
+          </p>
         </motion.form>
       </div>
     </section>
