@@ -18,10 +18,10 @@ const HowItWorks = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          A <span className="text-foreground font-normal">Masterclass</span>
+          O <span className="text-foreground font-normal">Workshop</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          4 pilares estratégicos que você vai dominar em 3 dias de aulas ao vivo.
+          4 pilares estratégicos que você vai dominar no workshop ao vivo do dia 16 de Abril.
         </p>
       </motion.div>
 
@@ -39,7 +39,7 @@ const HowItWorks = () => (
               <step.icon className="w-7 h-7 text-foreground" strokeWidth={1.5} />
             </div>
             <div className="text-xs text-foreground font-medium tracking-widest uppercase mb-2">
-              Dia {i + 1 <= 3 ? i + 1 : 3} — Pilar {i + 1}
+              Pilar {i + 1}
             </div>
             <h3 className="text-xl font-light mb-2">{step.title}</h3>
             <p className="text-sm text-muted-foreground font-light">{step.description}</p>

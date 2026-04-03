@@ -3,19 +3,19 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { TrendingUp, Users, DollarSign } from "lucide-react";
 
 const data = [
-  { mes: "Mês 1", semMetodo: 800, comMetodo: 2500 },
-  { mes: "Mês 2", semMetodo: 1200, comMetodo: 6000 },
-  { mes: "Mês 3", semMetodo: 1500, comMetodo: 12000 },
-  { mes: "Mês 4", semMetodo: 1800, comMetodo: 18000 },
-  { mes: "Mês 5", semMetodo: 2000, comMetodo: 22000 },
-  { mes: "Mês 6", semMetodo: 2200, comMetodo: 26000 },
-  { mes: "Mês 7", semMetodo: 2000, comMetodo: 28000 },
-  { mes: "Mês 8", semMetodo: 2400, comMetodo: 30000 },
+  { mes: "Mês 1", semMetodo: 800, comMetodo: 5000 },
+  { mes: "Mês 2", semMetodo: 1200, comMetodo: 12000 },
+  { mes: "Mês 3", semMetodo: 1500, comMetodo: 22000 },
+  { mes: "Mês 4", semMetodo: 1800, comMetodo: 35000 },
+  { mes: "Mês 5", semMetodo: 2000, comMetodo: 48000 },
+  { mes: "Mês 6", semMetodo: 2200, comMetodo: 55000 },
+  { mes: "Mês 7", semMetodo: 2000, comMetodo: 62000 },
+  { mes: "Mês 8", semMetodo: 2400, comMetodo: 70000 },
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões nos primeiros 3 meses" },
-  { icon: DollarSign, label: "Meta em 3 Meses", value: "R$30k", change: "partindo do zero absoluto" },
+  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões aplicando o método" },
+  { icon: DollarSign, label: "Resultado em 1 Ano", value: "R$70k+", change: "faturados por Gustavo Correia" },
   { icon: Users, label: "Corretores Treinados", value: "+1.000", change: "em todo o Brasil" },
 ];
 
