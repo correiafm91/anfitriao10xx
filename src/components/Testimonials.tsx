@@ -6,7 +6,7 @@ const testimonials = [
     name: "Lucas Martins",
     role: "Corretor de Seguros - SP",
     stars: 5,
-    text: "Em 3 meses saí do zero para R$28 mil em comissões. O método do Gustavo é direto ao ponto e funciona de verdade.",
+    text: "Em 3 meses saí do zero para R$28 mil em comissões. As estratégias do Gustavo são diretas ao ponto e funcionam de verdade.",
   },
   {
     name: "Fernanda Oliveira",
@@ -18,7 +18,7 @@ const testimonials = [
     name: "Ricardo Santos",
     role: "Corretor de Seguros - MG",
     stars: 5,
-    text: "A masterclass mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida.",
+    text: "O workshop mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida.",
   },
   {
     name: "Ana Paula Costa",
@@ -53,7 +53,7 @@ const Testimonials = () => (
           O que dizem nossos <span className="text-foreground font-normal">Alunos</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Corretores que participaram da masterclass e transformaram suas carreiras.
+          Corretores que participaram do workshop e transformaram suas carreiras.
         </p>
       </motion.div>
 

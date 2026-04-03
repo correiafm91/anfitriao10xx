@@ -33,15 +33,15 @@ const About = () => (
             Quem é Gustavo Correia
           </span>
           <h2 className="text-3xl md:text-4xl font-extralight mb-6 leading-tight">
-            Especialista em{" "}
-            <span className="text-foreground font-normal">Marketing para Corretores</span>
+            A história por trás do{" "}
+            <span className="text-foreground font-normal">Corretor 10x</span>
           </h2>
           <div className="space-y-4 text-muted-foreground font-light leading-relaxed">
             <p>
-              Gustavo Correia é especialista em marketing e posicionamento para corretores de seguros e criador do Método Corretor 10x — uma masterclass estratégica que ensina corretores a se destacarem no mercado e escalarem seus resultados.
+              Em 2024, Gustavo Correia fez o curso de corretor de seguros da ANS e se formou com apenas 19 anos. Em menos de 1 ano como corretor, faturou mais de R$70 mil aplicando estratégias próprias de marketing e posicionamento.
             </p>
             <p>
-              O foco do método é empoderar o corretor com as estratégias certas de posicionamento, marketing digital, prospecção e fechamento para que ele saia do zero e alcance R$30 mil em comissões em apenas 3 meses.
+              Em 2025, decidiu compartilhar tudo o que aprendeu e começou a ensinar suas estratégias para outros corretores. Assim nasceu o Método Corretor 10x — um workshop ao vivo que ensina corretores a se destacarem no mercado usando marketing digital, posicionamento e prospecção.
             </p>
             <p>
               Com mais de 1.000 corretores treinados em todo o Brasil, Gustavo lidera o maior treinamento de corretores de seguros do país — transformando profissionais comuns em referências do mercado.
@@ -50,15 +50,15 @@ const About = () => (
 
           <div className="flex gap-4 mt-8">
             <a
-              href="https://instagram.com/anfitriao10x"
+              href="https://instagram.com/corretor10x_"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-foreground hover:text-foreground transition-colors"
             >
-              @anfitriao10x
+              @corretor10x_
             </a>
             <a
-              href="https://youtube.com/@anfitrião10x"
+              href="https://youtube.com/@corretor10_"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-foreground hover:text-foreground transition-colors"
