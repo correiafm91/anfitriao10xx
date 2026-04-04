@@ -37,7 +37,7 @@ const QualificationForm = () => {
             Garanta sua <span className="text-foreground font-normal">Vaga</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Preencha o formulário para garantir sua vaga no workshop ao vivo do dia 16 de Abril por apenas <span className="text-foreground font-medium">R$297</span>.
+            Preencha o formulário para garantir sua vaga no workshop ao vivo do dia 12 de Abril às 10h por apenas <span className="text-foreground font-medium">R$297</span>. Após o pagamento, você entra no grupo exclusivo da comunidade.
           </p>
         </motion.div>
 

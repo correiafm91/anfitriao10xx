@@ -9,7 +9,8 @@ const faqs = [
   { q: "Quanto tempo leva para ver resultados?", a: "Gustavo saiu do zero para mais de R$70 mil em menos de 1 ano. Com as estratégias certas, a maioria dos alunos vê resultados já nas primeiras semanas." },
   { q: "Funciona para qualquer tipo de seguro?", a: "Sim. As estratégias são adaptáveis para seguro auto, vida, saúde, empresarial, residencial e qualquer outro ramo. O foco é em marketing e posicionamento." },
   { q: "As vagas são limitadas?", a: "Sim. Para garantir a qualidade do workshop e atenção individual, as vagas são limitadas. Inscreva-se antes que acabem." },
-  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você receberá todos os detalhes de acesso ao workshop." },
+  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você será adicionado ao grupo exclusivo da comunidade, onde receberá novidades, aulas ao vivo pelo Zoom e o acesso ao workshop." },
+  { q: "O que é o grupo da comunidade?", a: "É um grupo exclusivo para alunos do Corretor 10x onde Gustavo compartilha novidades, estratégias e realiza aulas ao vivo pelo Zoom. Você entra no grupo assim que confirmar o pagamento." },
 ];
 
 const FAQ = () => (
