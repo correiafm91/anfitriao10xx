@@ -32,7 +32,7 @@ const Hero = () => {
           >
             <AlertTriangle className="w-4 h-4 text-foreground" />
             <span className="text-muted-foreground">Inscrições abertas —</span>
-            <span className="text-foreground font-medium">Vagas limitadas para dia 16 de Abril</span>
+            <span className="text-foreground font-medium">Vagas limitadas para dia 12 de Abril</span>
           </motion.div>
 
           <span className="text-foreground font-medium tracking-[0.3em] uppercase text-sm mb-6 block">
@@ -49,7 +49,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-center gap-2 text-foreground font-medium mb-10">
             <Clock className="w-5 h-5" />
-            <span>16 de Abril — Workshop ao vivo por apenas R$297</span>
+            <span>12 de Abril às 10h — 1 hora intensa ao vivo por R$297</span>
           </div>
 
           <Button
