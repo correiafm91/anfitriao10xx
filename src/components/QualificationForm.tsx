@@ -56,10 +56,10 @@ const QualificationForm = () => {
               <span>Verifique seu e-mail</span>
             </div>
             <p className="text-muted-foreground font-light max-w-md mx-auto">
-              O link de pagamento será enviado para o seu e-mail em instantes. Após a confirmação do pagamento, você receberá o acesso ao workshop do dia 16 de Abril.
+              O link de pagamento será enviado para o seu e-mail em instantes. Após a confirmação do pagamento, você será adicionado ao <span className="text-foreground font-medium">grupo exclusivo da comunidade</span>, onde receberá novidades, aulas ao vivo pelo Zoom e acesso direto ao workshop do dia 12 de Abril às 10h.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Valor do investimento: <span className="text-foreground font-medium">R$297</span>
+              Valor do investimento: <span className="text-foreground font-medium">R$297</span> · Workshop: 12 de Abril às 10h (1 hora intensa)
             </p>
           </motion.div>
         ) : (
