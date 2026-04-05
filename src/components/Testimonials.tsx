@@ -4,37 +4,37 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Lucas Martins",
-    role: "Corretor de Seguros - SP",
+    role: "Corretor de Imóveis - SP",
     stars: 5,
-    text: "Em 3 meses saí do zero para R$28 mil em comissões. As estratégias do Gustavo são diretas ao ponto e funcionam de verdade.",
+    text: "Em 3 meses saí do zero para R$28 mil em comissões. As estratégias da Pro Estate são diretas ao ponto e funcionam de verdade.",
   },
   {
     name: "Fernanda Oliveira",
-    role: "Corretora de Seguros - RJ",
+    role: "Corretora de Imóveis - RJ",
     stars: 5,
     text: "Finalmente aprendi a me posicionar no digital. Meus clientes agora vêm até mim, não preciso mais ficar implorando indicações.",
   },
   {
     name: "Ricardo Santos",
-    role: "Corretor de Seguros - MG",
+    role: "Corretor de Imóveis - MG",
     stars: 5,
-    text: "O workshop mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida.",
+    text: "O workshop mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida de clientes.",
   },
   {
     name: "Ana Paula Costa",
-    role: "Corretora de Seguros - PR",
+    role: "Corretora de Imóveis - PR",
     stars: 5,
-    text: "As estratégias de prospecção digital são um divisor de águas. Nunca mais dependi só de indicação para vender.",
+    text: "As estratégias de prospecção digital são um divisor de águas. Nunca mais dependi só de indicação para fechar vendas.",
   },
   {
     name: "Marcos Ferreira",
-    role: "Corretor de Seguros - BA",
+    role: "Corretor de Imóveis - BA",
     stars: 5,
-    text: "Do zero a R$32 mil em 4 meses. O Gustavo ensina o que nenhuma seguradora vai te ensinar sobre marketing.",
+    text: "Do zero a R$32 mil em 4 meses. A Pro Estate ensina o que nenhuma imobiliária vai te ensinar sobre marketing.",
   },
   {
     name: "Juliana Almeida",
-    role: "Corretora de Seguros - SC",
+    role: "Corretora de Imóveis - SC",
     stars: 5,
     text: "O conteúdo é claro, prático e funciona. Hoje sou referência na minha cidade graças ao posicionamento que aprendi.",
   },
@@ -50,10 +50,10 @@ const Testimonials = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          O que dizem nossos <span className="text-foreground font-normal">Alunos</span>
+          O que dizem nossos <span className="text-primary font-normal">Alunos</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Corretores que participaram do workshop e transformaram suas carreiras.
+          Corretores que participaram do workshop e transformaram suas carreiras no mercado imobiliário.
         </p>
       </motion.div>
 
@@ -65,16 +65,16 @@ const Testimonials = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-card border border-border rounded-xl p-6 hover:border-foreground/30 transition-colors"
+            className="bg-card border border-border rounded-xl p-6 hover:border-primary/30 transition-colors"
           >
             <div className="flex gap-1 mb-4">
               {Array.from({ length: t.stars }).map((_, j) => (
-                <Star key={j} className="w-4 h-4 fill-foreground text-foreground" />
+                <Star key={j} className="w-4 h-4 fill-primary text-primary" />
               ))}
             </div>
             <p className="text-foreground/90 font-light mb-6 leading-relaxed">"{t.text}"</p>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-foreground/15 flex items-center justify-center text-foreground text-sm font-medium">
+              <div className="w-10 h-10 rounded-full bg-primary/15 flex items-center justify-center text-primary text-sm font-medium">
                 {t.name.split(" ").map(n => n[0]).join("")}
               </div>
               <div>
