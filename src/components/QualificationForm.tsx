@@ -30,14 +30,14 @@ const QualificationForm = () => {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-sm">
-            <AlertTriangle className="w-4 h-4 text-foreground" />
-            <span className="text-foreground font-medium">Últimas vagas — Inscrições encerram em breve</span>
+            <AlertTriangle className="w-4 h-4 text-primary" />
+            <span className="text-primary font-medium">Últimas vagas — Inscrições encerram em breve</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            Garanta sua <span className="text-foreground font-normal">Vaga</span>
+            Garanta sua <span className="text-primary font-normal">Vaga</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Preencha o formulário para garantir sua vaga no workshop ao vivo do dia 12 de Abril às 10h por apenas <span className="text-foreground font-medium">R$297</span>. Após o pagamento, você entra no grupo exclusivo da comunidade.
+            Preencha o formulário para garantir sua vaga no workshop ao vivo do dia 13 de Abril às 10h por apenas <span className="text-primary font-medium">R$297</span>. Após o pagamento, você entra no grupo exclusivo da comunidade.
           </p>
         </motion.div>
 
@@ -47,19 +47,19 @@ const QualificationForm = () => {
             animate={{ opacity: 1, scale: 1 }}
             className="bg-card border border-border rounded-2xl p-10 text-center space-y-4"
           >
-            <div className="w-16 h-16 rounded-full bg-foreground/10 flex items-center justify-center mx-auto">
-              <CheckCircle className="w-8 h-8 text-foreground" />
+            <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
+              <CheckCircle className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-2xl font-light">Inscrição Confirmada!</h3>
-            <div className="flex items-center justify-center gap-2 text-foreground font-medium">
+            <div className="flex items-center justify-center gap-2 text-primary font-medium">
               <Mail className="w-5 h-5" />
               <span>Verifique seu e-mail</span>
             </div>
             <p className="text-muted-foreground font-light max-w-md mx-auto">
-              O link de pagamento será enviado para o seu e-mail em instantes. Após a confirmação do pagamento, você será adicionado ao <span className="text-foreground font-medium">grupo exclusivo da comunidade</span>, onde receberá novidades, aulas ao vivo pelo Zoom e acesso direto ao workshop do dia 12 de Abril às 10h.
+              O link de pagamento será enviado para o seu e-mail em instantes. Após a confirmação do pagamento, você será adicionado ao <span className="text-primary font-medium">grupo exclusivo da comunidade</span>, onde receberá novidades, aulas ao vivo pelo Zoom e acesso direto ao workshop do dia 13 de Abril às 10h.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Valor do investimento: <span className="text-foreground font-medium">R$297</span> · Workshop: 12 de Abril às 10h (1 hora intensa)
+              Valor do investimento: <span className="text-primary font-medium">R$297</span> · Workshop: 13 de Abril às 10h (1 hora intensa)
             </p>
           </motion.div>
         ) : (
@@ -74,13 +74,13 @@ const QualificationForm = () => {
               <Input
                 placeholder="Seu nome completo"
                 required
-                className="bg-secondary border-border focus:border-foreground h-12 font-light"
+                className="bg-secondary border-border focus:border-primary h-12 font-light"
               />
               <Input
                 type="email"
                 placeholder="Seu melhor e-mail"
                 required
-                className="bg-secondary border-border focus:border-foreground h-12 font-light"
+                className="bg-secondary border-border focus:border-primary h-12 font-light"
               />
             </div>
             <div className="grid md:grid-cols-2 gap-5">
@@ -88,7 +88,7 @@ const QualificationForm = () => {
                 type="tel"
                 placeholder="Telefone com DDD"
                 required
-                className="bg-secondary border-border focus:border-foreground h-12 font-light"
+                className="bg-secondary border-border focus:border-primary h-12 font-light"
               />
               <Select required>
                 <SelectTrigger className="bg-secondary border-border h-12 font-light">
@@ -106,12 +106,12 @@ const QualificationForm = () => {
             <Input
               placeholder="Cidade / Estado"
               required
-              className="bg-secondary border-border focus:border-foreground h-12 font-light"
+              className="bg-secondary border-border focus:border-primary h-12 font-light"
             />
             <Button
               type="submit"
               disabled={loading}
-              className="w-full bg-foreground hover:bg-foreground/90 text-background h-12 rounded-xl text-base font-normal tracking-wide"
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 rounded-xl text-base font-normal tracking-wide"
             >
               {loading ? "Enviando..." : "Garantir minha vaga — R$297"}
               {!loading && <Send className="ml-2 w-4 h-4" />}
