@@ -113,7 +113,7 @@ const QualificationForm = () => {
               disabled={loading}
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 rounded-xl text-base font-normal tracking-wide"
             >
-              {loading ? "Enviando..." : "{loading ? "Enviando..." : "Garantir minha vaga — R$197"}"}
+              {loading ? "Enviando..." : "Garantir minha vaga — R$197"}
               {!loading && <Send className="ml-2 w-4 h-4" />}
             </Button>
             <p className="text-xs text-muted-foreground text-center">

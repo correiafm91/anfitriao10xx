@@ -9,7 +9,7 @@ const faqs = [
   { q: "Quanto tempo leva para ver resultados?", a: "Com as estratégias certas, a maioria dos alunos vê resultados já nas primeiras semanas de aplicação." },
   { q: "Funciona para qualquer tipo de imóvel?", a: "Sim. As estratégias são adaptáveis para imóveis residenciais, comerciais, alto padrão, populares e qualquer segmento. O foco é em marketing e posicionamento." },
   { q: "As vagas são limitadas?", a: "Sim. Para garantir a qualidade do workshop e atenção individual, as vagas são limitadas. Inscreva-se antes que acabem." },
-  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você será adicionado ao grupo exclusivo da comunidade, onde receberá novidades, aulas ao vivo pelo Zoom e o acesso ao workshop." },
+  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você será adicionado ao grupo exclusivo da comunidade, onde receberá novidades, aulas ao vivo pelo Zoom e o acesso ao workshop do dia 12 de Abril às 16h." },
   { q: "O que é o grupo da comunidade?", a: "É um grupo exclusivo para alunos da Pro Estate onde compartilhamos novidades, estratégias e realizamos aulas ao vivo pelo Zoom. Você entra no grupo assim que confirmar o pagamento." },
 ];
 
