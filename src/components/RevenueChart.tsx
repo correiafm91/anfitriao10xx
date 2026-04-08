@@ -3,19 +3,19 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { TrendingUp, Users, DollarSign } from "lucide-react";
 
 const data = [
-  { mes: "Mês 1", semMetodo: 2000, comMetodo: 8000 },
-  { mes: "Mês 2", semMetodo: 3000, comMetodo: 18000 },
-  { mes: "Mês 3", semMetodo: 3500, comMetodo: 32000 },
-  { mes: "Mês 4", semMetodo: 4000, comMetodo: 48000 },
-  { mes: "Mês 5", semMetodo: 4500, comMetodo: 65000 },
-  { mes: "Mês 6", semMetodo: 5000, comMetodo: 85000 },
-  { mes: "Mês 7", semMetodo: 5200, comMetodo: 100000 },
-  { mes: "Mês 8", semMetodo: 5500, comMetodo: 120000 },
+  { mes: "Mês 1", semMetodo: 3000, comMetodo: 5000 },
+  { mes: "Mês 2", semMetodo: 3500, comMetodo: 12000 },
+  { mes: "Mês 3", semMetodo: 4000, comMetodo: 22000 },
+  { mes: "Mês 4", semMetodo: 4200, comMetodo: 35000 },
+  { mes: "Mês 5", semMetodo: 4500, comMetodo: 50000 },
+  { mes: "Mês 6", semMetodo: 5000, comMetodo: 68000 },
+  { mes: "Mês 7", semMetodo: 5200, comMetodo: 85000 },
+  { mes: "Mês 8", semMetodo: 5500, comMetodo: 100000 },
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões aplicando o método" },
-  { icon: DollarSign, label: "Resultado Comprovado", value: "R$120k+", change: "alcançados por nossos alunos" },
+  { icon: TrendingUp, label: "Crescimento Médio", value: "3x", change: "em vendas de seguros" },
+  { icon: DollarSign, label: "Resultado Comprovado", value: "R$100k+", change: "alcançados por nossos clientes" },
   { icon: Users, label: "Corretores Treinados", value: "+1.000", change: "em todo o Brasil" },
 ];
 
@@ -24,8 +24,8 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   return (
     <div className="bg-card border border-border rounded-lg p-3 text-sm shadow-xl">
       <p className="text-foreground font-medium mb-1">{label}</p>
-      <p className="text-muted-foreground">Sem o método: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
-      <p className="text-primary">Com Pro Estate: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
+      <p className="text-muted-foreground">Sem estratégia: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
+      <p className="text-primary">Com Corretor 10x: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
     </div>
   );
 };
@@ -40,10 +40,10 @@ const RevenueChart = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          Crescimento de <span className="text-primary font-normal">Comissões</span>
+          Crescimento de <span className="text-primary font-normal">Vendas</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Resultados reais de corretores que aplicaram as estratégias do Método Pro Estate.
+          Resultados reais de corretores de seguros que aplicaram as estratégias da Corretor 10x.
         </p>
       </motion.div>
 
@@ -60,24 +60,24 @@ const RevenueChart = () => (
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-primary">Com Método Pro Estate</span>
+            <span className="text-primary">Com Corretor 10x</span>
           </div>
         </div>
         <div className="h-[350px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={data}>
               <defs>
-                <linearGradient id="colorProEstate" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="hsl(217, 91%, 45%)" stopOpacity={0.2} />
-                  <stop offset="95%" stopColor="hsl(217, 91%, 45%)" stopOpacity={0} />
+                <linearGradient id="colorCorretor10x" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="hsl(14, 80%, 50%)" stopOpacity={0.2} />
+                  <stop offset="95%" stopColor="hsl(14, 80%, 50%)" stopOpacity={0} />
                 </linearGradient>
               </defs>
-              <CartesianGrid strokeDasharray="3 3" stroke="hsl(210, 15%, 88%)" />
-              <XAxis dataKey="mes" stroke="hsl(210, 10%, 45%)" fontSize={12} tickLine={false} />
-              <YAxis stroke="hsl(210, 10%, 45%)" fontSize={12} tickLine={false} tickFormatter={(v) => `R$${(v / 1000).toFixed(0)}k`} />
+              <CartesianGrid strokeDasharray="3 3" stroke="hsl(0, 5%, 88%)" />
+              <XAxis dataKey="mes" stroke="hsl(0, 5%, 45%)" fontSize={12} tickLine={false} />
+              <YAxis stroke="hsl(0, 5%, 45%)" fontSize={12} tickLine={false} tickFormatter={(v) => `R$${(v / 1000).toFixed(0)}k`} />
               <Tooltip content={<CustomTooltip />} />
-              <Area type="monotone" dataKey="semMetodo" stroke="hsl(210, 10%, 70%)" strokeWidth={2} fill="transparent" dot={false} />
-              <Area type="monotone" dataKey="comMetodo" stroke="hsl(217, 91%, 45%)" strokeWidth={2} fill="url(#colorProEstate)" dot={false} />
+              <Area type="monotone" dataKey="semMetodo" stroke="hsl(0, 5%, 70%)" strokeWidth={2} fill="transparent" dot={false} />
+              <Area type="monotone" dataKey="comMetodo" stroke="hsl(14, 80%, 50%)" strokeWidth={2} fill="url(#colorCorretor10x)" dot={false} />
             </AreaChart>
           </ResponsiveContainer>
         </div>

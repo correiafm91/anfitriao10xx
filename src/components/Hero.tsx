@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Clock, AlertTriangle } from "lucide-react";
+import { ArrowRight, Shield, TrendingUp } from "lucide-react";
 import { Button } from "./ui/button";
 
 const stats = [
   { value: "+1.000", label: "Corretores Treinados" },
-  { value: "10x", label: "Mais Resultados" },
-  { value: "R$197", label: "Investimento" },
-  { value: "#1", label: "Workshop do Brasil" },
+  { value: "3x", label: "Mais Vendas" },
+  { value: "Grátis", label: "Diagnóstico Inicial" },
+  { value: "#1", label: "Em Marketing de Seguros" },
 ];
 
 const Hero = () => {
@@ -30,34 +30,34 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-border bg-card mb-8 text-sm"
           >
-            <AlertTriangle className="w-4 h-4 text-primary" />
-            <span className="text-muted-foreground">Inscrições abertas —</span>
-            <span className="text-primary font-medium"><span className="text-primary font-medium">Vagas limitadas para dia 12 de Abril</span></span>
+            <Shield className="w-4 h-4 text-primary" />
+            <span className="text-muted-foreground">Diagnóstico gratuito —</span>
+            <span className="text-primary font-medium">Descubra seu potencial</span>
           </motion.div>
 
           <div className="flex justify-center mb-8">
             <img
-              src="https://i.postimg.cc/tJ2vGVrw/658211288-17893525920436451-2969698379029917654-n.jpg"
-              alt="Pro Estate Logo"
+              src="https://i.postimg.cc/yYfgcKMc/1000283477.jpg"
+              alt="Corretor 10x Logo"
               className="h-20 md:h-28 object-contain"
             />
           </div>
 
           <span className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-6 block">
-            Workshop Pro Estate — O Maior Treinamento para Corretores do Brasil
+            Corretor 10x — A Maior Empresa de Marketing de Seguros do Brasil
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extralight leading-tight mb-6">
-            Destaque-se como{" "}
-            <span className="text-primary font-normal">corretor de imóveis</span>{" "}
-            no mercado
+            Triplique suas{" "}
+            <span className="text-primary font-normal">vendas de seguros</span>{" "}
+            com estratégias simples
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl font-light max-w-2xl mx-auto mb-4">
-            O maior workshop ao vivo para corretores de imóveis do Brasil. Aprenda as estratégias de marketing e posicionamento que vão te destacar no mercado imobiliário.
+            Consultoria especializada para corretores de seguros que querem se destacar no mercado. Estratégias fáceis de implementar e muito baratas.
           </p>
 
           <div className="flex items-center justify-center gap-2 text-primary font-medium mb-10">
-            <Clock className="w-5 h-5" />
-            <span><span>12 de Abril às 16h — 1 hora intensa ao vivo por R$197</span></span>
+            <TrendingUp className="w-5 h-5" />
+            <span>Solicite seu diagnóstico gratuito e descubra seu posicionamento</span>
           </div>
 
           <Button
@@ -65,7 +65,7 @@ const Hero = () => {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-6 text-base font-normal tracking-wide group"
           >
-            Garantir minha vaga agora
+            Quero meu diagnóstico gratuito
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>
