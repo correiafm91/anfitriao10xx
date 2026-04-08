@@ -3,40 +3,40 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Lucas Martins",
-    role: "Corretor de Imóveis - SP",
+    name: "Carlos Mendes",
+    role: "Corretor de Seguros - SP",
     stars: 5,
-    text: "Em 3 meses saí do zero para R$28 mil em comissões. As estratégias da Pro Estate são diretas ao ponto e funcionam de verdade.",
+    text: "Em 3 meses tripliquei minhas vendas de seguros. As estratégias da Corretor 10x são simples e funcionam de verdade.",
   },
   {
-    name: "Fernanda Oliveira",
-    role: "Corretora de Imóveis - RJ",
+    name: "Patrícia Lima",
+    role: "Corretora de Seguros - RJ",
     stars: 5,
-    text: "Finalmente aprendi a me posicionar no digital. Meus clientes agora vêm até mim, não preciso mais ficar implorando indicações.",
+    text: "O diagnóstico gratuito já abriu meus olhos. Depois da consultoria, meus clientes passaram a me procurar ao invés de eu correr atrás.",
   },
   {
-    name: "Ricardo Santos",
-    role: "Corretor de Imóveis - MG",
+    name: "Roberto Alves",
+    role: "Corretor de Seguros - MG",
     stars: 5,
-    text: "O workshop mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida de clientes.",
+    text: "Saí do zero e em 4 meses já faturava R$25 mil por mês. O posicionamento que aprendi fez toda a diferença.",
   },
   {
-    name: "Ana Paula Costa",
-    role: "Corretora de Imóveis - PR",
+    name: "Camila Torres",
+    role: "Corretora de Seguros - PR",
     stars: 5,
-    text: "As estratégias de prospecção digital são um divisor de águas. Nunca mais dependi só de indicação para fechar vendas.",
+    text: "As estratégias são muito fáceis de implementar e baratas. Nunca imaginei que marketing pudesse ser tão acessível.",
   },
   {
-    name: "Marcos Ferreira",
-    role: "Corretor de Imóveis - BA",
+    name: "André Souza",
+    role: "Corretor de Seguros - BA",
     stars: 5,
-    text: "Do zero a R$32 mil em 4 meses. A Pro Estate ensina o que nenhuma imobiliária vai te ensinar sobre marketing.",
+    text: "A Corretor 10x me ensinou a usar as redes sociais de forma estratégica. Hoje sou referência na minha região.",
   },
   {
-    name: "Juliana Almeida",
-    role: "Corretora de Imóveis - SC",
+    name: "Mariana Costa",
+    role: "Corretora de Seguros - SC",
     stars: 5,
-    text: "O conteúdo é claro, prático e funciona. Hoje sou referência na minha cidade graças ao posicionamento que aprendi.",
+    text: "O melhor investimento que fiz na minha carreira. Em 2 meses já tinha recuperado o investimento e triplicado minhas vendas.",
   },
 ];
 
@@ -50,10 +50,10 @@ const Testimonials = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          O que dizem nossos <span className="text-primary font-normal">Alunos</span>
+          O que dizem nossos <span className="text-primary font-normal">Clientes</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Corretores que participaram do workshop e transformaram suas carreiras no mercado imobiliário.
+          Corretores de seguros que triplicaram suas vendas com nossas estratégias.
         </p>
       </motion.div>
 

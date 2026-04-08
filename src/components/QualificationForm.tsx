@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { AlertTriangle } from "lucide-react";
+import { Shield } from "lucide-react";
 
 const QualificationForm = () => {
   const [showForm, setShowForm] = useState(false);
@@ -35,14 +35,14 @@ const QualificationForm = () => {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-sm">
-            <AlertTriangle className="w-4 h-4 text-primary" />
-            <span className="text-primary font-medium">Últimas vagas — Inscrições encerram em breve</span>
+            <Shield className="w-4 h-4 text-primary" />
+            <span className="text-primary font-medium">100% gratuito — Sem compromisso</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            Garanta sua <span className="text-primary font-normal">Vaga</span>
+            Diagnóstico <span className="text-primary font-normal">Gratuito</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Clique no botão abaixo para garantir sua vaga no workshop ao vivo do dia 12 de Abril às 16h por apenas <span className="text-primary font-medium">R$197</span>.
+            Preencha o formulário e descubra como triplicar suas vendas de seguros com estratégias simples e baratas.
           </p>
         </motion.div>
 
@@ -57,10 +57,10 @@ const QualificationForm = () => {
               onClick={handleClick}
               className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-4 text-base font-normal tracking-wide transition-colors"
             >
-              Garantir minha vaga — R$197
+              Solicitar diagnóstico gratuito
             </button>
             <p className="text-xs text-muted-foreground text-center mt-4">
-              Vagas limitadas. Após a inscrição, o link de pagamento será enviado por e-mail.
+              Nossa equipe entrará em contato para analisar seu posicionamento atual.
             </p>
           </motion.div>
         ) : (

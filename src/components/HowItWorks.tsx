@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Search, Target, BarChart3, Rocket } from "lucide-react";
 
 const steps = [
-  { icon: Search, title: "Posicionamento", description: "Aprenda a se posicionar como autoridade no mercado imobiliário e atrair clientes qualificados." },
-  { icon: Target, title: "Prospecção", description: "Domine técnicas de prospecção ativa e digital para nunca mais depender de indicações." },
-  { icon: BarChart3, title: "Marketing", description: "Crie uma presença digital irresistível com estratégias de conteúdo, anúncios e redes sociais." },
-  { icon: Rocket, title: "Fechamento", description: "Converta mais propostas em vendas com técnicas avançadas de negociação e follow-up." },
+  { icon: Search, title: "Diagnóstico", description: "Analisamos seu posicionamento atual no mercado de seguros e identificamos oportunidades de crescimento." },
+  { icon: Target, title: "Estratégia", description: "Criamos um plano personalizado com estratégias fáceis de implementar e de baixo custo." },
+  { icon: BarChart3, title: "Posicionamento", description: "Te ajudamos a se posicionar como autoridade no mercado de seguros com marketing digital estratégico." },
+  { icon: Rocket, title: "Resultados", description: "Acompanhamos sua evolução para garantir que você triplique suas vendas em tempo recorde." },
 ];
 
 const HowItWorks = () => (
@@ -18,10 +18,10 @@ const HowItWorks = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          O <span className="text-primary font-normal">Workshop</span>
+          Como <span className="text-primary font-normal">Funciona</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          4 pilares estratégicos que você vai dominar no workshop ao vivo do dia 4 pilares estratégicos que você vai dominar no workshop ao vivo do dia 12 de Abril..
+          4 etapas para transformar seus resultados no mercado de seguros.
         </p>
       </motion.div>
 
@@ -39,7 +39,7 @@ const HowItWorks = () => (
               <step.icon className="w-7 h-7 text-primary" strokeWidth={1.5} />
             </div>
             <div className="text-xs text-primary font-medium tracking-widest uppercase mb-2">
-              Pilar {i + 1}
+              Etapa {i + 1}
             </div>
             <h3 className="text-xl font-light mb-2">{step.title}</h3>
             <p className="text-sm text-muted-foreground font-light">{step.description}</p>

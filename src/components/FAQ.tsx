@@ -2,15 +2,14 @@ import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 
 const faqs = [
-  { q: "O que é o Workshop Pro Estate?", a: "É um workshop ao vivo que ensina corretores de imóveis a dominarem marketing, posicionamento e prospecção para escalar seus resultados de forma previsível no mercado imobiliário." },
-  { q: "Quando acontece o workshop?", a: "O workshop ao vivo será no dia 12 de Abril às 16h da tarde. São 1 hora intensa de aula ao vivo com conteúdo prático e aplicável imediatamente." },
-  { q: "Quanto custa?", a: "O investimento é de apenas R$197. Após se inscrever, o link de pagamento será enviado para o seu e-mail." },
-  { q: "Preciso ter experiência como corretor?", a: "Não. O método é desenhado tanto para iniciantes que querem começar com o pé direito quanto para corretores experientes que querem escalar seus resultados." },
-  { q: "Quanto tempo leva para ver resultados?", a: "Com as estratégias certas, a maioria dos alunos vê resultados já nas primeiras semanas de aplicação." },
-  { q: "Funciona para qualquer tipo de imóvel?", a: "Sim. As estratégias são adaptáveis para imóveis residenciais, comerciais, alto padrão, populares e qualquer segmento. O foco é em marketing e posicionamento." },
-  { q: "As vagas são limitadas?", a: "Sim. Para garantir a qualidade do workshop e atenção individual, as vagas são limitadas. Inscreva-se antes que acabem." },
-  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você será adicionado ao grupo exclusivo da comunidade, onde receberá novidades, aulas ao vivo pelo Zoom e o acesso ao workshop do dia 12 de Abril às 16h." },
-  { q: "O que é o grupo da comunidade?", a: "É um grupo exclusivo para alunos da Pro Estate onde compartilhamos novidades, estratégias e realizamos aulas ao vivo pelo Zoom. Você entra no grupo assim que confirmar o pagamento." },
+  { q: "O que é a Corretor 10x?", a: "Somos a maior empresa de marketing de seguros do Brasil. Oferecemos consultoria especializada para corretores de seguros que querem triplicar suas vendas com estratégias simples e acessíveis." },
+  { q: "O que é o diagnóstico gratuito?", a: "É uma análise completa do seu posicionamento atual no mercado de seguros. Identificamos oportunidades de crescimento e traçamos um plano personalizado para você." },
+  { q: "Quanto custa a consultoria?", a: "O diagnóstico é totalmente gratuito. Nossas estratégias são desenhadas para serem muito baratas e fáceis de implementar, sem depender de agências caras ou tráfego pago." },
+  { q: "Preciso ter experiência como corretor?", a: "Não. Nossas estratégias funcionam tanto para iniciantes que querem começar bem quanto para corretores experientes que querem escalar seus resultados." },
+  { q: "Quanto tempo leva para ver resultados?", a: "A maioria dos nossos clientes começa a ver resultados já nas primeiras semanas de aplicação. Resultados expressivos geralmente aparecem em 2 a 3 meses." },
+  { q: "Funciona para qualquer tipo de seguro?", a: "Sim. As estratégias são adaptáveis para seguros de vida, auto, saúde, residencial, empresarial e qualquer segmento. O foco é em marketing e posicionamento." },
+  { q: "As estratégias são difíceis de implementar?", a: "Não! Um dos nossos diferenciais é que as estratégias são muito fáceis de implementar. Você não precisa ser expert em marketing ou tecnologia." },
+  { q: "Como faço para começar?", a: "Basta preencher o formulário de diagnóstico gratuito no nosso site. Nossa equipe entrará em contato para fazer a análise do seu posicionamento." },
 ];
 
 const FAQ = () => (
