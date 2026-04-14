@@ -16,7 +16,7 @@ const Footer = () => (
             </h3>
           </div>
           <p className="text-sm text-muted-foreground font-light leading-relaxed">
-            O maior workshop para corretores de imóveis do Brasil. Estratégias de marketing e posicionamento para o mercado imobiliário.
+            A maior consultoria de marketing para corretores de imóveis do Brasil. Estratégias personalizadas de posicionamento para o mercado imobiliário.
           </p>
         </div>
         <div>
@@ -24,7 +24,7 @@ const Footer = () => (
           <ul className="space-y-2 text-sm font-light">
             <li><a href="#sobre" className="hover:text-primary transition-colors">Sobre</a></li>
             <li><a href="#faq" className="hover:text-primary transition-colors">FAQ</a></li>
-            <li><a href="#formulario" className="hover:text-primary transition-colors">Inscreva-se</a></li>
+            <li><a href="#formulario" className="hover:text-primary transition-colors">Diagnóstico Gratuito</a></li>
           </ul>
         </div>
         <div>

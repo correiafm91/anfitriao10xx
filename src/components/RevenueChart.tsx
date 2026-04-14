@@ -14,9 +14,9 @@ const data = [
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões aplicando o método" },
-  { icon: DollarSign, label: "Resultado Comprovado", value: "R$120k+", change: "alcançados por nossos alunos" },
-  { icon: Users, label: "Corretores Treinados", value: "+1.000", change: "em todo o Brasil" },
+  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões com a consultoria" },
+  { icon: DollarSign, label: "Resultado Comprovado", value: "R$120k+", change: "alcançados por nossos clientes" },
+  { icon: Users, label: "Corretores Atendidos", value: "+1.000", change: "em todo o Brasil" },
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
@@ -43,7 +43,7 @@ const RevenueChart = () => (
           Crescimento de <span className="text-primary font-normal">Comissões</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Resultados reais de corretores que aplicaram as estratégias do Método Pro Estate.
+          Resultados reais de corretores que aplicaram as estratégias da consultoria Pro Estate.
         </p>
       </motion.div>
 
@@ -60,7 +60,7 @@ const RevenueChart = () => (
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-primary">Com Método Pro Estate</span>
+            <span className="text-primary">Com Consultoria Pro Estate</span>
           </div>
         </div>
         <div className="h-[350px] w-full">

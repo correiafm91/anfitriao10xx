@@ -18,7 +18,7 @@ const testimonials = [
     name: "Ricardo Santos",
     role: "Corretor de Imóveis - MG",
     stars: 5,
-    text: "O workshop mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida de clientes.",
+    text: "A consultoria mudou minha visão sobre o mercado. Hoje faturo 10x mais do que antes e tenho uma carteira sólida de clientes.",
   },
   {
     name: "Ana Paula Costa",
@@ -50,10 +50,10 @@ const Testimonials = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          O que dizem nossos <span className="text-primary font-normal">Alunos</span>
+          O que dizem nossos <span className="text-primary font-normal">Clientes</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Corretores que participaram do workshop e transformaram suas carreiras no mercado imobiliário.
+          Corretores que contrataram nossa consultoria e transformaram suas carreiras no mercado imobiliário.
         </p>
       </motion.div>
 

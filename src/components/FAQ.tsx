@@ -2,15 +2,13 @@ import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 
 const faqs = [
-  { q: "O que é o Workshop Pro Estate?", a: "É um workshop ao vivo que ensina corretores de imóveis a dominarem marketing, posicionamento e prospecção para escalar seus resultados de forma previsível no mercado imobiliário." },
-  { q: "Quando acontece o workshop?", a: "O workshop ao vivo será no dia 13 de Abril às 10h da manhã. São 1 hora intensa de aula ao vivo com conteúdo prático e aplicável imediatamente." },
-  { q: "Quanto custa?", a: "O investimento é de apenas R$297. Após se inscrever, o link de pagamento será enviado para o seu e-mail." },
-  { q: "Preciso ter experiência como corretor?", a: "Não. O método é desenhado tanto para iniciantes que querem começar com o pé direito quanto para corretores experientes que querem escalar seus resultados." },
-  { q: "Quanto tempo leva para ver resultados?", a: "Com as estratégias certas, a maioria dos alunos vê resultados já nas primeiras semanas de aplicação." },
+  { q: "O que é a Pro Estate?", a: "A Pro Estate é uma consultoria especializada em marketing e posicionamento para corretores de imóveis. Nossa equipe cria estratégias personalizadas para você se destacar no mercado imobiliário." },
+  { q: "Como funciona o diagnóstico gratuito?", a: "Você preenche o formulário com suas informações e nossa equipe analisa seu posicionamento atual, identificando oportunidades de crescimento. Em seguida, entramos em contato com um plano personalizado." },
+  { q: "Preciso ter experiência como corretor?", a: "Não. Nossas estratégias são desenhadas tanto para iniciantes que querem começar com o pé direito quanto para corretores experientes que querem escalar seus resultados." },
+  { q: "Quanto tempo leva para ver resultados?", a: "Com as estratégias certas, a maioria dos nossos clientes vê resultados já nas primeiras semanas de aplicação. Em 3 meses, é possível sair do zero a R$30 mil em comissões." },
   { q: "Funciona para qualquer tipo de imóvel?", a: "Sim. As estratégias são adaptáveis para imóveis residenciais, comerciais, alto padrão, populares e qualquer segmento. O foco é em marketing e posicionamento." },
-  { q: "As vagas são limitadas?", a: "Sim. Para garantir a qualidade do workshop e atenção individual, as vagas são limitadas. Inscreva-se antes que acabem." },
-  { q: "Como recebo o acesso?", a: "Após a inscrição, o link de pagamento será enviado para o seu e-mail. Após a confirmação do pagamento, você será adicionado ao grupo exclusivo da comunidade, onde receberá novidades, aulas ao vivo pelo Zoom e o acesso ao workshop." },
-  { q: "O que é o grupo da comunidade?", a: "É um grupo exclusivo para alunos da Pro Estate onde compartilhamos novidades, estratégias e realizamos aulas ao vivo pelo Zoom. Você entra no grupo assim que confirmar o pagamento." },
+  { q: "O que é o grupo da comunidade?", a: "É um grupo exclusivo para clientes da Pro Estate onde compartilhamos novidades, estratégias e realizamos aulas ao vivo pelo Zoom. Você entra no grupo ao contratar a consultoria." },
+  { q: "Quanto custa a consultoria?", a: "O diagnóstico inicial é 100% gratuito. Após a análise, apresentamos uma proposta personalizada de consultoria adequada às suas necessidades e objetivos." },
 ];
 
 const FAQ = () => (
