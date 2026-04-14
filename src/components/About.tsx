@@ -14,7 +14,7 @@ const About = () => (
             <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl bg-card border border-border overflow-hidden flex items-center justify-center p-6">
               <img
                 src="https://i.postimg.cc/tJ2vGVrw/658211288-17893525920436451-2969698379029917654-n.jpg"
-                alt="Pro Estate - Treinamento para Corretores de Imóveis"
+                alt="Pro Estate - Consultoria para Corretores de Imóveis"
                 className="w-full h-full object-contain"
               />
             </div>
@@ -33,7 +33,7 @@ const About = () => (
             Sobre a Pro Estate
           </span>
           <h2 className="text-3xl md:text-4xl font-extralight mb-6 leading-tight">
-            O maior treinamento para{" "}
+            A maior consultoria para{" "}
             <span className="text-primary font-normal">corretores de imóveis</span> do Brasil
           </h2>
           <div className="space-y-4 text-muted-foreground font-light leading-relaxed">
@@ -41,10 +41,10 @@ const About = () => (
               A Pro Estate nasceu da necessidade real do mercado imobiliário: corretores precisam de estratégias modernas de marketing e posicionamento para se destacar em um mercado cada vez mais competitivo.
             </p>
             <p>
-              Com mais de 1.000 corretores treinados em todo o Brasil, a Pro Estate se tornou referência em capacitação para o mercado imobiliário — transformando profissionais comuns em referências do mercado.
+              Com mais de 1.000 corretores atendidos em todo o Brasil, a Pro Estate se tornou referência em consultoria de marketing para o mercado imobiliário — transformando profissionais comuns em referências do mercado.
             </p>
             <p>
-              Nosso workshop ensina estratégias práticas e comprovadas de marketing digital, posicionamento e prospecção para corretores que querem escalar seus resultados e se tornarem autoridades na sua região.
+              Nossa equipe cria estratégias personalizadas de marketing digital, posicionamento e prospecção para corretores que querem escalar seus resultados e se tornarem autoridades na sua região.
             </p>
           </div>
 

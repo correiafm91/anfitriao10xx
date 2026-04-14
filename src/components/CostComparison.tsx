@@ -38,7 +38,6 @@ const CostComparison = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Traditional */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -74,7 +73,6 @@ const CostComparison = () => {
             </div>
           </motion.div>
 
-          {/* Pro Estate */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -110,7 +108,7 @@ const CostComparison = () => {
             <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 text-center">
               <p className="text-sm text-muted-foreground mb-1">Custo mensal de operação</p>
               <p className="text-3xl font-light text-primary">R$ 0</p>
-              <p className="text-xs text-muted-foreground mt-1">Investimento único de R$297 no workshop</p>
+              <p className="text-xs text-muted-foreground mt-1">Estratégias que não custam nada para executar</p>
             </div>
           </motion.div>
         </div>

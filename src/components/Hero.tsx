@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Clock, AlertTriangle } from "lucide-react";
+import { ArrowRight, ShieldCheck } from "lucide-react";
 import { Button } from "./ui/button";
 
 const stats = [
   { value: "+1.000", label: "Corretores Treinados" },
   { value: "10x", label: "Mais Resultados" },
-  { value: "R$297", label: "Investimento" },
-  { value: "#1", label: "Workshop do Brasil" },
+  { value: "Grátis", label: "Diagnóstico Inicial" },
+  { value: "#1", label: "Consultoria do Brasil" },
 ];
 
 const Hero = () => {
@@ -30,9 +30,9 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-border bg-card mb-8 text-sm"
           >
-            <AlertTriangle className="w-4 h-4 text-primary" />
-            <span className="text-muted-foreground">Inscrições abertas —</span>
-            <span className="text-primary font-medium">Vagas limitadas para dia 13 de Abril</span>
+            <ShieldCheck className="w-4 h-4 text-primary" />
+            <span className="text-muted-foreground">Diagnóstico gratuito —</span>
+            <span className="text-primary font-medium">Solicite agora</span>
           </motion.div>
 
           <div className="flex justify-center mb-8">
@@ -44,20 +44,20 @@ const Hero = () => {
           </div>
 
           <span className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-6 block">
-            Workshop Pro Estate — O Maior Treinamento para Corretores do Brasil
+            Pro Estate — Consultoria de Marketing para Corretores de Imóveis
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extralight leading-tight mb-6">
-            Destaque-se como{" "}
-            <span className="text-primary font-normal">corretor de imóveis</span>{" "}
-            no mercado
+            Estratégias de{" "}
+            <span className="text-primary font-normal">marketing imobiliário</span>{" "}
+            para você se destacar
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl font-light max-w-2xl mx-auto mb-4">
-            O maior workshop ao vivo para corretores de imóveis do Brasil. Aprenda as estratégias de marketing e posicionamento que vão te destacar no mercado imobiliário.
+            Nossa equipe cria estratégias personalizadas de marketing e posicionamento para corretores de imóveis que querem dominar o mercado. Comece com um diagnóstico gratuito.
           </p>
 
           <div className="flex items-center justify-center gap-2 text-primary font-medium mb-10">
-            <Clock className="w-5 h-5" />
-            <span>13 de Abril às 10h — 1 hora intensa ao vivo por R$297</span>
+            <ShieldCheck className="w-5 h-5" />
+            <span>Diagnóstico gratuito · Consultoria personalizada · Resultados comprovados</span>
           </div>
 
           <Button
@@ -65,7 +65,7 @@ const Hero = () => {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-6 text-base font-normal tracking-wide group"
           >
-            Garantir minha vaga agora
+            Solicitar diagnóstico gratuito
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>

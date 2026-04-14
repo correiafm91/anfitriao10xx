@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { toast } from "sonner";
-import { Send, AlertTriangle, CheckCircle, Mail } from "lucide-react";
+import { Send, CheckCircle, Mail } from "lucide-react";
 
 const QualificationForm = () => {
   const [loading, setLoading] = useState(false);
@@ -16,7 +16,7 @@ const QualificationForm = () => {
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-      toast.success("Inscrição realizada com sucesso!");
+      toast.success("Solicitação enviada com sucesso!");
     }, 1500);
   };
 
@@ -29,15 +29,11 @@ const QualificationForm = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-sm">
-            <AlertTriangle className="w-4 h-4 text-primary" />
-            <span className="text-primary font-medium">Últimas vagas — Inscrições encerram em breve</span>
-          </div>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            Garanta sua <span className="text-primary font-normal">Vaga</span>
+            Solicite seu <span className="text-primary font-normal">Diagnóstico Gratuito</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Preencha o formulário para garantir sua vaga no workshop ao vivo do dia 13 de Abril às 10h por apenas <span className="text-primary font-medium">R$297</span>. Após o pagamento, você entra no grupo exclusivo da comunidade.
+            Preencha o formulário e nossa equipe entrará em contato para realizar um diagnóstico completo do seu posicionamento e criar uma estratégia personalizada para você.
           </p>
         </motion.div>
 
@@ -50,16 +46,13 @@ const QualificationForm = () => {
             <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
               <CheckCircle className="w-8 h-8 text-primary" />
             </div>
-            <h3 className="text-2xl font-light">Inscrição Confirmada!</h3>
+            <h3 className="text-2xl font-light">Solicitação Enviada!</h3>
             <div className="flex items-center justify-center gap-2 text-primary font-medium">
               <Mail className="w-5 h-5" />
               <span>Verifique seu e-mail</span>
             </div>
             <p className="text-muted-foreground font-light max-w-md mx-auto">
-              O link de pagamento será enviado para o seu e-mail em instantes. Após a confirmação do pagamento, você será adicionado ao <span className="text-primary font-medium">grupo exclusivo da comunidade</span>, onde receberá novidades, aulas ao vivo pelo Zoom e acesso direto ao workshop do dia 13 de Abril às 10h.
-            </p>
-            <p className="text-sm text-muted-foreground mt-4">
-              Valor do investimento: <span className="text-primary font-medium">R$297</span> · Workshop: 13 de Abril às 10h (1 hora intensa)
+              Nossa equipe analisará suas informações e entrará em contato em breve com o seu diagnóstico gratuito e uma proposta de consultoria personalizada.
             </p>
           </motion.div>
         ) : (
@@ -113,11 +106,11 @@ const QualificationForm = () => {
               disabled={loading}
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-12 rounded-xl text-base font-normal tracking-wide"
             >
-              {loading ? "Enviando..." : "Garantir minha vaga — R$297"}
+              {loading ? "Enviando..." : "Solicitar diagnóstico gratuito"}
               {!loading && <Send className="ml-2 w-4 h-4" />}
             </Button>
             <p className="text-xs text-muted-foreground text-center">
-              Vagas limitadas. Após a inscrição, o link de pagamento será enviado por e-mail.
+              100% gratuito. Nossa equipe entrará em contato para o diagnóstico.
             </p>
           </motion.form>
         )}
