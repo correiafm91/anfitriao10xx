@@ -50,15 +50,15 @@ const About = () => (
 
           <div className="flex gap-4 mt-8">
             <a
-              href="https://instagram.com/proestate.br"
+              href="https://instagram.com/proestate2"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"
             >
-              @proestate.br
+              @proestate2
             </a>
             <a
-              href="https://youtube.com/@proestate1"
+              href="https://youtube.com/@proestate2"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"
