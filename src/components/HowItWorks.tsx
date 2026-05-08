@@ -3,10 +3,10 @@ import { ClipboardCheck, Compass, Rocket, LineChart } from "lucide-react";
 import { Button } from "./ui/button";
 
 const steps = [
-  { icon: ClipboardCheck, title: "Diagnóstico", description: "Analisamos sua operação atual, gargalos de vendas, posicionamento e oportunidades escondidas na sua carteira." },
-  { icon: Compass, title: "Estratégia", description: "Construímos um plano personalizado de marketing, prospecção e fechamento adaptado ao seu ramo de atuação." },
-  { icon: Rocket, title: "Execução", description: "Acompanhamos a implementação semana a semana com mentorias, scripts prontos e ajustes em tempo real." },
-  { icon: LineChart, title: "Escala", description: "Otimizamos cada etapa do funil para multiplicar suas comissões de forma previsível e sustentável." },
+  { icon: ClipboardCheck, title: "Diagnóstico", description: "Mapeamos o funil de vendas, processos, time e gargalos atuais da sua operação comercial." },
+  { icon: Compass, title: "Estratégia", description: "Construímos um plano comercial sob medida com playbook, metas, scripts e processo de prospecção ativa." },
+  { icon: Rocket, title: "Execução", description: "Implementamos junto com seu time — treinamentos, mentorias e ajustes semanais até a máquina rodar." },
+  { icon: LineChart, title: "Escala", description: "Otimizamos cada etapa do funil com gestão por indicadores para multiplicar o faturamento de forma previsível." },
 ];
 
 const HowItWorks = () => {
@@ -27,10 +27,10 @@ const HowItWorks = () => {
             Como Funciona
           </span>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            As 4 etapas da <span className="text-primary font-normal">Consultoria</span>
+            As 4 etapas da <span className="text-primary font-normal">Aceleração</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Um processo estruturado e validado por mais de 1.000 corretores em todo o Brasil.
+            Um processo estruturado e validado por mais de 1.000 empresas em todo o Brasil.
           </p>
         </motion.div>
 
