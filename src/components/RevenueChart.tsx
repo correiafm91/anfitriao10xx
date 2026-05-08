@@ -14,9 +14,9 @@ const data = [
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em comissões com a consultoria" },
-  { icon: DollarSign, label: "Faturamento Possível", value: "R$70k+", change: "em 1 ano de aplicação" },
-  { icon: Users, label: "Corretores Atendidos", value: "+1.000", change: "em todo o Brasil" },
+  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em vendas com a aceleração" },
+  { icon: DollarSign, label: "Faturamento Possível", value: "R$700k+", change: "em 1 ano de aplicação" },
+  { icon: Users, label: "Empresas Aceleradas", value: "+1.000", change: "em todo o Brasil" },
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
@@ -24,8 +24,8 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   return (
     <div className="bg-card border border-border rounded-lg p-3 text-sm shadow-xl">
       <p className="text-foreground font-medium mb-1">{label}</p>
-      <p className="text-muted-foreground">Sem consultoria: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
-      <p className="text-primary">Com Corretor 10x: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
+      <p className="text-muted-foreground">Sem aceleração: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
+      <p className="text-primary">Com C4 Sales: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
     </div>
   );
 };
@@ -40,10 +40,10 @@ const RevenueChart = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          Crescimento de <span className="text-primary font-normal">Comissões</span>
+          Crescimento de <span className="text-primary font-normal">Faturamento</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Resultados reais de corretores que aplicaram a consultoria Corretor 10x.
+          Resultados reais de empresas que aplicaram a aceleração C4 Sales.
         </p>
       </motion.div>
 
@@ -60,7 +60,7 @@ const RevenueChart = () => (
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-primary">Com Consultoria Corretor 10x</span>
+            <span className="text-primary">Com C4 Sales</span>
           </div>
         </div>
         <div className="h-[350px] w-full">

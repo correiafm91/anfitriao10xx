@@ -19,13 +19,13 @@ const About = () => {
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl bg-card border border-border overflow-hidden flex items-center justify-center p-8">
                 <img
-                  src="https://i.postimg.cc/3JyrYKbr/1000288417.jpg"
-                  alt="Corretor 10x - Consultoria de Vendas para Corretores de Seguros"
+                  src="https://i.postimg.cc/2SSyZ8KK/1000296135.jpg"
+                  alt="C4 Sales — Aceleradora de Vendas para Empresas"
                   className="w-full h-full object-contain"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-xl bg-primary/10 border border-primary/30 flex items-center justify-center">
-                <span className="text-primary font-light text-2xl">10x</span>
+                <span className="text-primary font-light text-2xl">C4</span>
               </div>
             </div>
           </motion.div>
@@ -36,21 +36,21 @@ const About = () => {
             viewport={{ once: true }}
           >
             <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs mb-4 block">
-              Sobre o Corretor 10x
+              Sobre a C4 Sales
             </span>
             <h2 className="text-3xl md:text-4xl font-extralight mb-6 leading-tight">
-              A maior consultoria de vendas para{" "}
-              <span className="text-primary font-normal">corretores de seguros</span> do Brasil
+              A aceleradora de vendas que coloca{" "}
+              <span className="text-primary font-normal">empresas em movimento</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-light leading-relaxed">
               <p>
-                A Corretor 10x é a consultoria de vendas que ajuda corretores de seguros a dominarem marketing, posicionamento e prospecção — as três alavancas que separam profissionais comuns dos que faturam alto no mercado.
+                A C4 Sales é uma aceleradora de vendas que ajuda empresas a estruturarem máquinas comerciais previsíveis — com processo, prospecção ativa, time treinado e gestão por dados.
               </p>
               <p>
-                Com mais de 1.000 corretores atendidos em todo o Brasil, a Corretor 10x se tornou referência para quem quer escalar resultados de forma previsível, com método validado e acompanhamento estratégico.
+                Já atendemos mais de 1.000 empresas em todo o Brasil, transformando operações desorganizadas em times comerciais de alta performance e crescimento previsível.
               </p>
               <p>
-                Um processo prático, direto ao ponto e focado em resultado — sem teoria vazia. Apenas o que funciona para transformar corretores comuns em referências do mercado.
+                Um método direto ao ponto, focado em resultado. Sem teoria vazia — apenas o que funciona para acelerar o faturamento da sua empresa.
               </p>
             </div>
 
@@ -62,15 +62,15 @@ const About = () => {
                 Diagnóstico gratuito
               </Button>
               <a
-                href="https://instagram.com/corretor10x_"
+                href="https://instagram.com/c4sales_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"
               >
-                @corretor10x_
+                @c4sales_
               </a>
               <a
-                href="https://youtube.com/@corretor10_"
+                href="https://youtube.com/@c4sales_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"

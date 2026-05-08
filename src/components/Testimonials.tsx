@@ -4,45 +4,45 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Lucas Martins",
-    role: "Corretor Auto/Vida — SP",
+    role: "CEO — SaaS B2B, SP",
     stars: 5,
-    result: "+R$28k em 3 meses",
-    text: "A consultoria do Corretor 10x reorganizou toda minha operação. Em 3 meses saí do zero a R$28 mil em comissões com método e previsibilidade.",
+    result: "+R$280k em 3 meses",
+    text: "A C4 Sales reorganizou todo o nosso processo comercial. Em 90 dias triplicamos o faturamento com previsibilidade real.",
   },
   {
     name: "Fernanda Oliveira",
-    role: "Corretora Saúde — RJ",
+    role: "Diretora Comercial — Indústria, RJ",
     stars: 5,
-    result: "Triplicou a carteira",
-    text: "Aprendi a me posicionar como autoridade. Hoje meus clientes me procuram, não preciso mais correr atrás de indicações para fechar venda.",
+    result: "Triplicou o pipeline",
+    text: "Estruturaram nossa prospecção ativa do zero. Hoje temos um pipeline saudável e meta batida todo mês.",
   },
   {
     name: "Ricardo Santos",
-    role: "Corretor Empresarial — MG",
+    role: "Sócio — Serviços, MG",
     stars: 5,
-    result: "10x em comissões",
-    text: "Mudou minha visão sobre o mercado de seguros. Faturo 10x mais do que antes e construí uma carteira sólida e recorrente.",
+    result: "10x em vendas",
+    text: "A consultoria mudou nossa visão de comercial. Faturamos 10x mais e construímos um time que vende sozinho.",
   },
   {
     name: "Ana Paula Costa",
-    role: "Corretora Vida — PR",
+    role: "Head de Vendas — Tech, PR",
     stars: 5,
-    result: "+R$22k mensais",
-    text: "As estratégias de prospecção digital são um divisor de águas. Nunca mais dependi só de indicação para vender seguros.",
+    result: "+R$220k mensais",
+    text: "O método de prospecção da C4 Sales é um divisor de águas. Não dependemos mais de indicação para crescer.",
   },
   {
     name: "Marcos Ferreira",
-    role: "Corretor Multi-ramos — BA",
+    role: "Founder — Agência, BA",
     stars: 5,
-    result: "+R$32k em 4 meses",
-    text: "A consultoria me deu o que nenhuma seguradora ensina: marketing, posicionamento e fechamento de alto valor.",
+    result: "+R$320k em 4 meses",
+    text: "A aceleração nos deu o que faltava: processo, gestão por indicadores e fechamento de tickets altos.",
   },
   {
     name: "Juliana Almeida",
-    role: "Corretora Residencial — SC",
+    role: "CEO — E-commerce, SC",
     stars: 5,
-    result: "Referência regional",
-    text: "Conteúdo claro, prático e que funciona. Hoje sou referência na minha cidade graças ao posicionamento que construímos juntos.",
+    result: "Referência no nicho",
+    text: "Conteúdo prático, direto e que funciona. Hoje somos referência no nosso mercado graças ao posicionamento que construímos juntos.",
   },
 ];
 
@@ -59,10 +59,10 @@ const Testimonials = () => (
           Resultados Reais
         </span>
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          Corretores que <span className="text-primary font-normal">Multiplicaram</span> suas vendas
+          Empresas que <span className="text-primary font-normal">Multiplicaram</span> suas vendas
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Mais de 1.000 corretores transformaram seus resultados com a consultoria.
+          Mais de 1.000 empresas transformaram seus resultados com a C4 Sales.
         </p>
       </motion.div>
 

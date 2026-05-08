@@ -3,10 +3,10 @@ import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
 
 const stats = [
-  { value: "+1.000", label: "Corretores Atendidos" },
+  { value: "+1.000", label: "Empresas Aceleradas" },
   { value: "10x", label: "Crescimento Médio" },
-  { value: "70k+", label: "Faturados em 1 Ano" },
-  { value: "#1", label: "Consultoria do Brasil" },
+  { value: "90 dias", label: "Para Resultados" },
+  { value: "#1", label: "Aceleradora B2B" },
 ];
 
 const Hero = () => {
@@ -31,19 +31,19 @@ const Hero = () => {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-primary/30 bg-primary/10 mb-8 text-sm"
           >
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-muted-foreground">Maior consultoria de vendas para</span>
-            <span className="text-primary font-medium">corretores de seguros do Brasil</span>
+            <span className="text-muted-foreground">Aceleradora de vendas para</span>
+            <span className="text-primary font-medium">empresas que querem escalar</span>
           </motion.div>
 
           <span className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-6 block">
-            Consultoria Corretor 10x
+            C4 Sales
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extralight leading-tight mb-6">
-            Multiplique suas vendas como{" "}
-            <span className="text-primary font-normal">corretor de seguros</span>
+            Acelere as vendas da sua{" "}
+            <span className="text-primary font-normal">empresa</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl font-light max-w-2xl mx-auto mb-8">
-            Consultoria estratégica 1 a 1 para corretores que querem escalar suas vendas com método, posicionamento e prospecção previsível.
+            Consultoria estratégica que estrutura máquinas comerciais previsíveis — com processo, time treinado e prospecção ativa.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground mb-10">

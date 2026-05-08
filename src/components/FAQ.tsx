@@ -3,14 +3,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 import { Button } from "./ui/button";
 
 const faqs = [
-  { q: "O que é a Consultoria Corretor 10x?", a: "É uma consultoria de vendas estratégica e personalizada para corretores de seguros que querem escalar suas comissões com método, posicionamento e prospecção previsível — sem depender só de indicação." },
-  { q: "Como funciona o diagnóstico gratuito?", a: "Você preenche o formulário com informações sobre sua operação atual. Em seguida, nosso time entra em contato para uma conversa onde identificamos seus principais gargalos e mostramos como a consultoria pode acelerar seus resultados." },
-  { q: "Para quem é a consultoria?", a: "Para corretores de seguros iniciantes que querem começar com o pé direito e para corretores experientes que querem escalar de forma previsível. Adaptamos o plano à sua realidade." },
-  { q: "Quanto tempo leva para ver resultados?", a: "A maioria dos corretores começa a ver melhorias nas primeiras semanas de aplicação. Resultados consistentes e expressivos costumam aparecer entre 60 e 90 dias." },
-  { q: "Funciona para qualquer ramo de seguro?", a: "Sim. As estratégias são adaptáveis para auto, vida, saúde, empresarial, residencial e qualquer outro ramo. O foco está em vendas, marketing e posicionamento." },
-  { q: "Como é o acompanhamento?", a: "Você recebe mentoria contínua, scripts de vendas, materiais prontos, plano de prospecção e acompanhamento dos seus indicadores semana a semana." },
-  { q: "Quanto custa a consultoria?", a: "O investimento varia conforme o plano ideal para o seu momento. O valor é apresentado durante o diagnóstico gratuito, depois de entendermos sua realidade." },
-  { q: "As vagas são limitadas?", a: "Sim. Para garantir qualidade e atenção individual, atendemos um número limitado de corretores por mês. Solicite seu diagnóstico antes de fecharmos a agenda." },
+  { q: "O que é a C4 Sales?", a: "A C4 Sales é uma aceleradora de vendas para empresas que querem estruturar uma máquina comercial previsível — com processo, time treinado, prospecção ativa e gestão por indicadores." },
+  { q: "Como funciona o diagnóstico gratuito?", a: "Você preenche o formulário com informações sobre sua operação. Em seguida, nosso time entra em contato para uma conversa onde mapeamos seus principais gargalos comerciais e mostramos como a aceleração pode acelerar seus resultados." },
+  { q: "Para quem é a aceleração?", a: "Para empresas B2B e B2C que já vendem mas querem estruturar processo, escalar o time comercial e crescer com previsibilidade. Adaptamos o plano à realidade de cada operação." },
+  { q: "Quanto tempo leva para ver resultados?", a: "A maioria das empresas começa a ver melhorias nas primeiras semanas de implementação. Resultados consistentes e expressivos costumam aparecer entre 60 e 90 dias." },
+  { q: "Funciona para qualquer segmento?", a: "Sim. Atendemos serviços, indústria, tecnologia, agências, e-commerce e mais. O método é adaptado ao seu modelo de negócio e ticket médio." },
+  { q: "Como é o acompanhamento?", a: "Mentoria contínua com o time comercial, scripts de vendas, playbook, plano de prospecção e acompanhamento dos indicadores semana a semana." },
+  { q: "Quanto custa a aceleração?", a: "O investimento varia conforme o plano ideal para o momento da sua empresa. O valor é apresentado durante o diagnóstico gratuito, depois de entendermos sua realidade." },
+  { q: "As vagas são limitadas?", a: "Sim. Para garantir qualidade e atenção ao detalhe, atendemos um número limitado de empresas por mês. Solicite seu diagnóstico antes de fecharmos a agenda." },
 ];
 
 const FAQ = () => {
