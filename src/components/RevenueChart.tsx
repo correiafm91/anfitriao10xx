@@ -14,9 +14,9 @@ const data = [
 ];
 
 const metrics = [
-  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em vendas com a aceleração" },
-  { icon: DollarSign, label: "Faturamento Possível", value: "R$700k+", change: "em 1 ano de aplicação" },
-  { icon: Users, label: "Empresas Aceleradas", value: "+1.000", change: "em todo o Brasil" },
+  { icon: TrendingUp, label: "Crescimento Médio", value: "10x", change: "em volume de atendimentos" },
+  { icon: DollarSign, label: "VGV Adicional", value: "R$1M+", change: "por corretor em 12 meses" },
+  { icon: Users, label: "Leads Qualificados", value: "+10.000", change: "entregues todo mês" },
 ];
 
 const CustomTooltip = ({ active, payload, label }: any) => {
@@ -24,8 +24,8 @@ const CustomTooltip = ({ active, payload, label }: any) => {
   return (
     <div className="bg-card border border-border rounded-lg p-3 text-sm shadow-xl">
       <p className="text-foreground font-medium mb-1">{label}</p>
-      <p className="text-muted-foreground">Sem aceleração: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
-      <p className="text-primary">Com C4 Sales: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
+      <p className="text-muted-foreground">Sem SDR: <span className="text-foreground">R${payload[0]?.value?.toLocaleString()}</span></p>
+      <p className="text-primary">Com Pro Estate: <span className="font-medium">R${payload[1]?.value?.toLocaleString()}</span></p>
     </div>
   );
 };
@@ -43,7 +43,7 @@ const RevenueChart = () => (
           Crescimento de <span className="text-primary font-normal">Faturamento</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Resultados reais de empresas que aplicaram a aceleração C4 Sales.
+          Resultados reais de corretores que terceirizaram a prospecção com a Pro Estate.
         </p>
       </motion.div>
 
@@ -56,11 +56,11 @@ const RevenueChart = () => (
         <div className="flex flex-wrap gap-6 mb-8 text-sm">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-muted-foreground/40" />
-            <span className="text-muted-foreground">Sem estratégia profissional</span>
+            <span className="text-muted-foreground">Prospectando sozinho</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-primary">Com C4 Sales</span>
+            <span className="text-primary">Com SDRs da Pro Estate</span>
           </div>
         </div>
         <div className="h-[350px] w-full">
