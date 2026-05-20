@@ -3,10 +3,10 @@ import { ClipboardCheck, Compass, Rocket, LineChart } from "lucide-react";
 import { Button } from "./ui/button";
 
 const steps = [
-  { icon: ClipboardCheck, title: "Diagnóstico", description: "Mapeamos o funil de vendas, processos, time e gargalos atuais da sua operação comercial." },
-  { icon: Compass, title: "Estratégia", description: "Construímos um plano comercial sob medida com playbook, metas, scripts e processo de prospecção ativa." },
-  { icon: Rocket, title: "Execução", description: "Implementamos junto com seu time — treinamentos, mentorias e ajustes semanais até a máquina rodar." },
-  { icon: LineChart, title: "Escala", description: "Otimizamos cada etapa do funil com gestão por indicadores para multiplicar o faturamento de forma previsível." },
+  { icon: ClipboardCheck, title: "Diagnóstico", description: "Entendemos seu portfólio, ticket médio, ICP e definimos juntos os critérios de qualificação dos leads." },
+  { icon: Compass, title: "Setup do Time", description: "Montamos a equipe de SDR dedicada, scripts, cadências e ferramentas de prospecção exclusivas para você." },
+  { icon: Rocket, title: "Prospecção Ativa", description: "Nossos SDRs prospectam, qualificam e agendam clientes prontos para você apresentar imóveis e fechar." },
+  { icon: LineChart, title: "Escala", description: "Otimização contínua com gestão por indicadores para multiplicar o volume de agendamentos qualificados." },
 ];
 
 const HowItWorks = () => {
@@ -27,10 +27,10 @@ const HowItWorks = () => {
             Como Funciona
           </span>
           <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-            As 4 etapas da <span className="text-primary font-normal">Aceleração</span>
+            As 4 etapas da <span className="text-primary font-normal">Operação</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Um processo estruturado e validado por mais de 1.000 empresas em todo o Brasil.
+            Um processo de prospecção validado em milhares de operações imobiliárias.
           </p>
         </motion.div>
 

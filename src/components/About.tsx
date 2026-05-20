@@ -18,14 +18,17 @@ const About = () => {
           >
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl bg-card border border-border overflow-hidden flex items-center justify-center p-8">
-                <img
-                  src="https://i.postimg.cc/2SSyZ8KK/1000296135.jpg"
-                  alt="C4 Sales — Aceleradora de Vendas para Empresas"
-                  className="w-full h-full object-contain"
-                />
+                <div className="text-center">
+                  <div className="text-6xl md:text-7xl font-extralight tracking-tight">
+                    Pro<span className="text-primary font-normal">Estate</span>
+                  </div>
+                  <div className="mt-3 text-xs uppercase tracking-[0.4em] text-muted-foreground">
+                    SDR · Real Estate
+                  </div>
+                </div>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-xl bg-primary/10 border border-primary/30 flex items-center justify-center">
-                <span className="text-primary font-light text-2xl">C4</span>
+                <span className="text-primary font-light text-xl">#1</span>
               </div>
             </div>
           </motion.div>
@@ -36,21 +39,21 @@ const About = () => {
             viewport={{ once: true }}
           >
             <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs mb-4 block">
-              Sobre a C4 Sales
+              Sobre a Pro Estate
             </span>
             <h2 className="text-3xl md:text-4xl font-extralight mb-6 leading-tight">
-              A aceleradora de vendas que coloca{" "}
-              <span className="text-primary font-normal">empresas em movimento</span>
+              A maior operação de SDR do mundo para{" "}
+              <span className="text-primary font-normal">corretores de imóveis</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-light leading-relaxed">
               <p>
-                A C4 Sales é uma aceleradora de vendas que ajuda empresas a estruturarem máquinas comerciais previsíveis — com processo, prospecção ativa, time treinado e gestão por dados.
+                A Pro Estate é uma empresa especializada em terceirização da área de vendas para o mercado imobiliário. Montamos e operamos times de SDR que prospectam, qualificam e entregam clientes prontos para o corretor fechar.
               </p>
               <p>
-                Já atendemos mais de 1.000 empresas em todo o Brasil, transformando operações desorganizadas em times comerciais de alta performance e crescimento previsível.
+                Somos a maior operação do mundo nesse modelo — combinando processo, tecnologia e SDRs treinados em alta performance comercial focados exclusivamente em imóveis.
               </p>
               <p>
-                Um método direto ao ponto, focado em resultado. Sem teoria vazia — apenas o que funciona para acelerar o faturamento da sua empresa.
+                Direto ao ponto: você não perde mais tempo com lead frio. A gente capta, qualifica e agenda. Você fecha.
               </p>
             </div>
 
@@ -61,22 +64,6 @@ const About = () => {
               >
                 Diagnóstico gratuito
               </Button>
-              <a
-                href="https://instagram.com/c4sales_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"
-              >
-                @c4sales_
-              </a>
-              <a
-                href="https://youtube.com/@c4sales_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-border text-sm font-light hover:border-primary hover:text-primary transition-colors"
-              >
-                YouTube
-              </a>
             </div>
           </motion.div>
         </div>

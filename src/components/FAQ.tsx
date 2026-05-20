@@ -3,14 +3,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 import { Button } from "./ui/button";
 
 const faqs = [
-  { q: "O que é a C4 Sales?", a: "A C4 Sales é uma aceleradora de vendas para empresas que querem estruturar uma máquina comercial previsível — com processo, time treinado, prospecção ativa e gestão por indicadores." },
-  { q: "Como funciona o diagnóstico gratuito?", a: "Você preenche o formulário com informações sobre sua operação. Em seguida, nosso time entra em contato para uma conversa onde mapeamos seus principais gargalos comerciais e mostramos como a aceleração pode acelerar seus resultados." },
-  { q: "Para quem é a aceleração?", a: "Para empresas B2B e B2C que já vendem mas querem estruturar processo, escalar o time comercial e crescer com previsibilidade. Adaptamos o plano à realidade de cada operação." },
-  { q: "Quanto tempo leva para ver resultados?", a: "A maioria das empresas começa a ver melhorias nas primeiras semanas de implementação. Resultados consistentes e expressivos costumam aparecer entre 60 e 90 dias." },
-  { q: "Funciona para qualquer segmento?", a: "Sim. Atendemos serviços, indústria, tecnologia, agências, e-commerce e mais. O método é adaptado ao seu modelo de negócio e ticket médio." },
-  { q: "Como é o acompanhamento?", a: "Mentoria contínua com o time comercial, scripts de vendas, playbook, plano de prospecção e acompanhamento dos indicadores semana a semana." },
-  { q: "Quanto custa a aceleração?", a: "O investimento varia conforme o plano ideal para o momento da sua empresa. O valor é apresentado durante o diagnóstico gratuito, depois de entendermos sua realidade." },
-  { q: "As vagas são limitadas?", a: "Sim. Para garantir qualidade e atenção ao detalhe, atendemos um número limitado de empresas por mês. Solicite seu diagnóstico antes de fecharmos a agenda." },
+  { q: "O que é a Pro Estate?", a: "A Pro Estate é uma empresa de terceirização de vendas focada exclusivamente no mercado imobiliário. Montamos e operamos times de SDR que prospectam e qualificam clientes para corretores e imobiliárias." },
+  { q: "Como funciona o serviço de SDR?", a: "Nosso time prospecta de forma ativa, qualifica os leads por critérios definidos com você e entrega contatos prontos e agendados para o corretor fechar negócio." },
+  { q: "Para quem é a Pro Estate?", a: "Para corretores autônomos, equipes de vendas e imobiliárias que querem aumentar o volume de atendimentos qualificados sem precisar montar e treinar um time interno de prospecção." },
+  { q: "Quanto tempo leva para receber os primeiros leads?", a: "Após o onboarding e definição de ICP, o time entra em operação rapidamente e os primeiros leads qualificados começam a chegar nas primeiras semanas." },
+  { q: "Vocês trabalham com qualquer tipo de imóvel?", a: "Sim. Atuamos com lançamentos, alto padrão, médio padrão, comercial e locação. Adaptamos a abordagem ao seu portfólio e perfil de cliente." },
+  { q: "Como é o acompanhamento dos resultados?", a: "Você recebe relatórios periódicos com volume de leads, qualificação, agendamentos e taxa de conversão, além de um gestor dedicado acompanhando a operação." },
+  { q: "Quanto custa o serviço?", a: "O investimento depende do tamanho do time de SDR e do volume desejado. O valor é apresentado no diagnóstico gratuito, depois de entendermos sua operação." },
+  { q: "As vagas são limitadas?", a: "Sim. Para manter a qualidade da prospecção, abrimos um número limitado de novas operações por mês. Solicite seu diagnóstico antes de fecharmos a agenda." },
 ];
 
 const FAQ = () => {

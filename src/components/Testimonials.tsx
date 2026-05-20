@@ -4,45 +4,45 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Lucas Martins",
-    role: "CEO — SaaS B2B, SP",
+    role: "Corretor — Alto Padrão, SP",
     stars: 5,
-    result: "+R$280k em 3 meses",
-    text: "A C4 Sales reorganizou todo o nosso processo comercial. Em 90 dias triplicamos o faturamento com previsibilidade real.",
+    result: "+40 atendimentos/mês",
+    text: "Parei de gastar tempo prospectando. A Pro Estate enche minha agenda com clientes qualificados — eu só apresento e fecho.",
   },
   {
     name: "Fernanda Oliveira",
-    role: "Diretora Comercial — Indústria, RJ",
+    role: "Imobiliária — Lançamentos, RJ",
     stars: 5,
-    result: "Triplicou o pipeline",
-    text: "Estruturaram nossa prospecção ativa do zero. Hoje temos um pipeline saudável e meta batida todo mês.",
+    result: "3x mais visitas",
+    text: "O time de SDR da Pro Estate triplicou as visitas dos nossos corretores em 90 dias. Operação redonda do começo ao fim.",
   },
   {
     name: "Ricardo Santos",
-    role: "Sócio — Serviços, MG",
+    role: "Corretor Autônomo, MG",
     stars: 5,
-    result: "10x em vendas",
-    text: "A consultoria mudou nossa visão de comercial. Faturamos 10x mais e construímos um time que vende sozinho.",
+    result: "+R$1,2M em VGV",
+    text: "Em 6 meses fechei mais do que nos 2 anos anteriores. Ter SDRs trabalhando para mim mudou totalmente o jogo.",
   },
   {
     name: "Ana Paula Costa",
-    role: "Head de Vendas — Tech, PR",
+    role: "Gerente Comercial — Imobiliária, PR",
     stars: 5,
-    result: "+R$220k mensais",
-    text: "O método de prospecção da C4 Sales é um divisor de águas. Não dependemos mais de indicação para crescer.",
+    result: "Leads qualificados todo dia",
+    text: "A qualificação que chega pra gente é absurda. Cliente já entra na conversa sabendo o que quer e dentro do nosso ticket.",
   },
   {
     name: "Marcos Ferreira",
-    role: "Founder — Agência, BA",
+    role: "Corretor — Comercial, BA",
     stars: 5,
-    result: "+R$320k em 4 meses",
-    text: "A aceleração nos deu o que faltava: processo, gestão por indicadores e fechamento de tickets altos.",
+    result: "Agenda cheia em 60 dias",
+    text: "Antes eu corria atrás de cliente. Hoje minha agenda fica cheia sozinha com leads que a Pro Estate entrega prontos.",
   },
   {
     name: "Juliana Almeida",
-    role: "CEO — E-commerce, SC",
+    role: "Imobiliária — Locação, SC",
     stars: 5,
-    result: "Referência no nicho",
-    text: "Conteúdo prático, direto e que funciona. Hoje somos referência no nosso mercado graças ao posicionamento que construímos juntos.",
+    result: "+200 leads/mês",
+    text: "Processo profissional, SDRs treinados e resultado mensurável. A melhor decisão que tomamos para a área comercial.",
   },
 ];
 
@@ -59,10 +59,10 @@ const Testimonials = () => (
           Resultados Reais
         </span>
         <h2 className="text-3xl md:text-5xl font-extralight mb-4">
-          Empresas que <span className="text-primary font-normal">Multiplicaram</span> suas vendas
+          Corretores que <span className="text-primary font-normal">multiplicaram</span> suas vendas
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Mais de 1.000 empresas transformaram seus resultados com a C4 Sales.
+          Milhares de corretores e imobiliárias terceirizam a prospecção com a Pro Estate.
         </p>
       </motion.div>
 

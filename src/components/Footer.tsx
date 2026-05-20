@@ -1,4 +1,4 @@
-import { Instagram, Youtube, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border py-16 px-6">
@@ -6,10 +6,10 @@ const Footer = () => (
       <div className="grid md:grid-cols-3 gap-10">
         <div>
           <h3 className="text-xl font-light mb-3">
-            C4 <span className="text-foreground font-normal">Sales</span>
+            Pro <span className="text-primary font-normal">Estate</span>
           </h3>
           <p className="text-sm text-muted-foreground font-light leading-relaxed">
-            Aceleradora de vendas para empresas. Processo, time treinado e prospecção ativa para multiplicar o faturamento da sua operação.
+            Terceirização de vendas para o mercado imobiliário. Times de SDR treinados captando novos clientes para corretores em todo o país.
           </p>
         </div>
         <div>
@@ -23,32 +23,16 @@ const Footer = () => (
           </ul>
         </div>
         <div>
-          <h4 className="text-sm font-medium uppercase tracking-widest text-muted-foreground mb-4">Redes Sociais</h4>
+          <h4 className="text-sm font-medium uppercase tracking-widest text-muted-foreground mb-4">Contato</h4>
           <div className="space-y-2 text-sm font-light">
-            <a
-              href="https://instagram.com/c4sales_"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Instagram className="w-4 h-4" /> @c4sales_
-            </a>
-            <a
-              href="https://youtube.com/@c4sales_"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Youtube className="w-4 h-4" /> @c4sales_
-            </a>
             <div className="flex items-center gap-2 text-muted-foreground">
-              <Mail className="w-4 h-4" /> contato@c4sales.com.br
+              <Mail className="w-4 h-4" /> contato@proestate.com.br
             </div>
           </div>
         </div>
       </div>
       <div className="border-t border-border mt-10 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} C4 Sales. Todos os direitos reservados.
+        © {new Date().getFullYear()} Pro Estate. Todos os direitos reservados.
       </div>
     </div>
   </footer>
