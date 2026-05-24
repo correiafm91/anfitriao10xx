@@ -3,14 +3,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 import { Button } from "./ui/button";
 
 const faqs = [
-  { q: "O que é a Pro Estate?", a: "A Pro Estate é uma empresa de terceirização de vendas focada exclusivamente no mercado imobiliário. Montamos e operamos times de SDR que prospectam e qualificam clientes para corretores e imobiliárias." },
-  { q: "Como funciona o serviço de SDR?", a: "Nosso time prospecta de forma ativa, qualifica os leads por critérios definidos com você e entrega contatos prontos e agendados para o corretor fechar negócio." },
-  { q: "Para quem é a Pro Estate?", a: "Para corretores autônomos, equipes de vendas e imobiliárias que querem aumentar o volume de atendimentos qualificados sem precisar montar e treinar um time interno de prospecção." },
-  { q: "Quanto tempo leva para receber os primeiros leads?", a: "Após o onboarding e definição de ICP, o time entra em operação rapidamente e os primeiros leads qualificados começam a chegar nas primeiras semanas." },
-  { q: "Vocês trabalham com qualquer tipo de imóvel?", a: "Sim. Atuamos com lançamentos, alto padrão, médio padrão, comercial e locação. Adaptamos a abordagem ao seu portfólio e perfil de cliente." },
-  { q: "Como é o acompanhamento dos resultados?", a: "Você recebe relatórios periódicos com volume de leads, qualificação, agendamentos e taxa de conversão, além de um gestor dedicado acompanhando a operação." },
-  { q: "Quanto custa o serviço?", a: "O investimento depende do tamanho do time de SDR e do volume desejado. O valor é apresentado no diagnóstico gratuito, depois de entendermos sua operação." },
-  { q: "As vagas são limitadas?", a: "Sim. Para manter a qualidade da prospecção, abrimos um número limitado de novas operações por mês. Solicite seu diagnóstico antes de fecharmos a agenda." },
+  { q: "O que é a Pro Estate?", a: "Somos uma empresa de terceirização de vendas para o mercado imobiliário. Montamos e operamos times de SDR que prospectam, qualificam e agendam clientes para corretores e imobiliárias." },
+  { q: "Quanto custa contratar a Pro Estate?", a: "O investimento começa por volta de R$9,8k/mês — mais barato do que manter um time interno de SDR (R$24k+/mês com salários e encargos) e mais eficiente do que gastar R$17k/mês em tráfego sozinho. O valor exato é definido no diagnóstico gratuito." },
+  { q: "Por que sai mais barato do que montar meu próprio time?", a: "Você não paga CLT, encargos, treinamento, ferramentas, gestão nem turnover. Entregamos um time já pronto, treinado, com processo, tecnologia e gestor dedicado por um custo fixo previsível." },
+  { q: "Vale mais a pena do que investir em tráfego pago?", a: "Tráfego entrega lead frio e exige tempo do corretor para qualificar. Nós entregamos cliente agendado e pronto para comprar — o ROI por real investido é muito maior." },
+  { q: "Em quanto tempo começo a receber leads?", a: "Após o diagnóstico e setup, em poucas semanas os primeiros leads qualificados já chegam. Resultados consistentes a partir do segundo mês de operação." },
+  { q: "Vocês trabalham com qualquer tipo de imóvel?", a: "Sim. Lançamentos, alto padrão, médio padrão, comercial e locação. Adaptamos abordagem, scripts e ICP ao seu portfólio." },
+  { q: "Como acompanho os resultados?", a: "Relatórios periódicos com volume de leads, qualificação, agendamentos e taxa de conversão, além de gestor dedicado acompanhando toda a operação." },
+  { q: "As vagas são limitadas?", a: "Sim. Para manter a qualidade da prospecção, abrimos um número limitado de novas operações por mês. Solicite seu diagnóstico antes que feche a agenda." },
 ];
 
 const FAQ = () => {
